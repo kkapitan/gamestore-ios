@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BDDB994E18C3943B003EBC42"
-               BuildableName = "GameStore.app"
-               BlueprintName = "GameStore"
+               BuildableName = "GameStore-Production.app"
+               BlueprintName = "GameStore-Production"
                ReferencedContainer = "container:GameStore.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -43,8 +43,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BDDB994E18C3943B003EBC42"
-            BuildableName = "GameStore.app"
-            BlueprintName = "GameStore"
+            BuildableName = "GameStore-Production.app"
+            BlueprintName = "GameStore-Production"
             ReferencedContainer = "container:GameStore.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -66,8 +66,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BDDB994E18C3943B003EBC42"
-            BuildableName = "GameStore.app"
-            BlueprintName = "GameStore"
+            BuildableName = "GameStore-Production.app"
+            BlueprintName = "GameStore-Production"
             ReferencedContainer = "container:GameStore.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -85,8 +85,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BDDB994E18C3943B003EBC42"
-            BuildableName = "GameStore.app"
-            BlueprintName = "GameStore"
+            BuildableName = "GameStore-Production.app"
+            BlueprintName = "GameStore-Production"
             ReferencedContainer = "container:GameStore.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BDDB994E18C3943B003EBC42"
-               BuildableName = "GameStore.app"
-               BlueprintName = "GameStore"
+               BlueprintIdentifier = "026903E41CB7C38500A84585"
+               BuildableName = "GameStore-Staging.app"
+               BlueprintName = "GameStore-Staging"
                ReferencedContainer = "container:GameStore.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -43,9 +43,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BDDB994E18C3943B003EBC42"
-            BuildableName = "GameStore.app"
-            BlueprintName = "GameStore"
+            BlueprintIdentifier = "026903E41CB7C38500A84585"
+            BuildableName = "GameStore-Staging.app"
+            BlueprintName = "GameStore-Staging"
             ReferencedContainer = "container:GameStore.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -66,9 +66,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BDDB994E18C3943B003EBC42"
-            BuildableName = "GameStore.app"
-            BlueprintName = "GameStore"
+            BlueprintIdentifier = "026903E41CB7C38500A84585"
+            BuildableName = "GameStore-Staging.app"
+            BlueprintName = "GameStore-Staging"
             ReferencedContainer = "container:GameStore.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -85,9 +85,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BDDB994E18C3943B003EBC42"
-            BuildableName = "GameStore.app"
-            BlueprintName = "GameStore"
+            BlueprintIdentifier = "026903E41CB7C38500A84585"
+            BuildableName = "GameStore-Staging.app"
+            BlueprintName = "GameStore-Staging"
             ReferencedContainer = "container:GameStore.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
