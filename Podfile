@@ -5,12 +5,15 @@ platform :ios, '8.0'
 # use_frameworks!
 
 # Networking
-pod 'AFNetworking'
+pod 'AFNetworking', '~> 2.5'
+pod 'Mantle'
+
+pod 'AUAccount', git: 'https://github.com/appunite/AUAccount.git', tag: '0.2.8'
+pod 'FastCoding'
 
 # Formatting
 pod 'FormatterKit'    # For all your string formatting needs
 
-pod 'Mantle'          # Github's model framework
 
 # Inform CocoaPods that we use some custom build configurations
 # Leave this in place unless you've tweaked the project's targets and configurations.

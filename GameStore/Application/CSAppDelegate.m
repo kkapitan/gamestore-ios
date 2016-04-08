@@ -12,7 +12,6 @@
 @implementation CSAppDelegate
 
 -(BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    NSLog(@"%@",[[CSEnvironment sharedConfiguration] apiBaseURL]);
     return YES;
 }
 

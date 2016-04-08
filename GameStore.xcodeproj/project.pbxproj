@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		021CAF811CB7C894006CE6B9 /* CSApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 021CAF801CB7C894006CE6B9 /* CSApiClient.m */; };
+		021CAF821CB7C894006CE6B9 /* CSApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 021CAF801CB7C894006CE6B9 /* CSApiClient.m */; };
+		021CAF871CB7CA1B006CE6B9 /* CSRequests.m in Sources */ = {isa = PBXBuildFile; fileRef = 021CAF861CB7CA1B006CE6B9 /* CSRequests.m */; };
+		021CAF881CB7CA1B006CE6B9 /* CSRequests.m in Sources */ = {isa = PBXBuildFile; fileRef = 021CAF861CB7CA1B006CE6B9 /* CSRequests.m */; };
+		021CAF8B1CB7CDB1006CE6B9 /* CSAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 021CAF8A1CB7CDB1006CE6B9 /* CSAccount.m */; };
+		021CAF8C1CB7CDB1006CE6B9 /* CSAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 021CAF8A1CB7CDB1006CE6B9 /* CSAccount.m */; };
 		026903E01CB7B5CC00A84585 /* CSEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = 026903DF1CB7B5CC00A84585 /* CSEnvironment.m */; };
 		026903E31CB7B83100A84585 /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 026903E21CB7B83100A84585 /* Configuration.plist */; };
 		026903E91CB7C38500A84585 /* CSEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = 026903DF1CB7B5CC00A84585 /* CSEnvironment.m */; };
@@ -45,6 +51,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		021CAF7F1CB7C894006CE6B9 /* CSApiClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSApiClient.h; sourceTree = "<group>"; };
+		021CAF801CB7C894006CE6B9 /* CSApiClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSApiClient.m; sourceTree = "<group>"; };
+		021CAF851CB7CA1B006CE6B9 /* CSRequests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSRequests.h; sourceTree = "<group>"; };
+		021CAF861CB7CA1B006CE6B9 /* CSRequests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSRequests.m; sourceTree = "<group>"; };
+		021CAF891CB7CDB1006CE6B9 /* CSAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAccount.h; sourceTree = "<group>"; };
+		021CAF8A1CB7CDB1006CE6B9 /* CSAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAccount.m; sourceTree = "<group>"; };
 		026903DE1CB7B5CC00A84585 /* CSEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSEnvironment.h; sourceTree = "<group>"; };
 		026903DF1CB7B5CC00A84585 /* CSEnvironment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSEnvironment.m; sourceTree = "<group>"; };
 		026903E21CB7B83100A84585 /* Configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Configuration.plist; sourceTree = "<group>"; };
@@ -127,9 +139,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		021CAF7E1CB7C767006CE6B9 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				021CAF841CB7C94C006CE6B9 /* Serializers */,
+				021CAF831CB7C940006CE6B9 /* Parameters */,
+				021CAF7F1CB7C894006CE6B9 /* CSApiClient.h */,
+				021CAF801CB7C894006CE6B9 /* CSApiClient.m */,
+				021CAF851CB7CA1B006CE6B9 /* CSRequests.h */,
+				021CAF861CB7CA1B006CE6B9 /* CSRequests.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		021CAF831CB7C940006CE6B9 /* Parameters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Parameters;
+			sourceTree = "<group>";
+		};
+		021CAF841CB7C94C006CE6B9 /* Serializers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Serializers;
+			sourceTree = "<group>";
+		};
 		026903DD1CB7B36100A84585 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				021CAF891CB7CDB1006CE6B9 /* CSAccount.h */,
+				021CAF8A1CB7CDB1006CE6B9 /* CSAccount.m */,
 			);
 			name = Helpers;
 			path = Resources;
@@ -281,6 +322,7 @@
 		BDDB995818C3943B003EBC42 /* GameStore */ = {
 			isa = PBXGroup;
 			children = (
+				021CAF7E1CB7C767006CE6B9 /* API */,
 				BDB71B2618EA471400579B97 /* Controllers */,
 				BD574AFB18EA47FA00EDD66F /* Models */,
 				026903DD1CB7B36100A84585 /* Helpers */,
@@ -755,7 +797,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				026903E91CB7C38500A84585 /* CSEnvironment.m in Sources */,
+				021CAF8C1CB7CDB1006CE6B9 /* CSAccount.m in Sources */,
+				021CAF881CB7CA1B006CE6B9 /* CSRequests.m in Sources */,
 				026903EA1CB7C38500A84585 /* CSAppDelegate.m in Sources */,
+				021CAF821CB7C894006CE6B9 /* CSApiClient.m in Sources */,
 				026903EB1CB7C38500A84585 /* AssetCatalogIdentifiers.m in Sources */,
 				026903EC1CB7C38500A84585 /* StoryboardIdentifiers.m in Sources */,
 				026903ED1CB7C38500A84585 /* main.m in Sources */,
@@ -768,7 +813,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				026903E01CB7B5CC00A84585 /* CSEnvironment.m in Sources */,
+				021CAF8B1CB7CDB1006CE6B9 /* CSAccount.m in Sources */,
+				021CAF871CB7CA1B006CE6B9 /* CSRequests.m in Sources */,
 				BDDB996318C3943B003EBC42 /* CSAppDelegate.m in Sources */,
+				021CAF811CB7C894006CE6B9 /* CSApiClient.m in Sources */,
 				BD934CD419C211F600B48551 /* AssetCatalogIdentifiers.m in Sources */,
 				BD934CD519C211F600B48551 /* StoryboardIdentifiers.m in Sources */,
 				BD6951CF18EA4B0800F2F410 /* main.m in Sources */,
