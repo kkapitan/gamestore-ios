@@ -19,7 +19,6 @@
         
         // set acceptable content code returned by API
         NSMutableIndexSet *statusCodesSet = [self.acceptableStatusCodes mutableCopy];
-        [statusCodesSet addIndex:422];
         [self setAcceptableStatusCodes:[statusCodesSet copy]];
     }
     
@@ -31,11 +30,6 @@
     // get parsed JSON response
     NSDictionary *json = [super responseObjectForResponse:response data:data error:error];
     
-    // default validation
-    if (![self validateResponse:response data:data error:NULL]) {
-        return nil;
-    }
-    
     NSError* (^parseErrorResponse)(NSDictionary *) = ^NSError *(NSDictionary *payload) {
         NSMutableDictionary *errorHash = [json mutableCopy];
         errorHash[@"code"] = @(response.statusCode);
@@ -43,19 +37,25 @@
         // create model object form JSON
         NSError *adapterError = nil;
         CSError *errorObject = [MTLJSONAdapter modelOfClass:CSError.class
-                                         fromJSONDictionary:errorHash[@"error"][@"error"]
+                                         fromJSONDictionary:errorHash
                                                       error:&adapterError];
         
         // returns error
         return adapterError ? adapterError : errorObject.error;
     };
     
-    // handle forbidden reponse
-    if (response.statusCode == 400 || response.statusCode == 401 || response.statusCode == 403 || response.statusCode == 422) {
-        if (error != NULL) *error = parseErrorResponse(json);
+    // default validation
+    if (![self validateResponse:response data:data error:NULL]) {
+        // handle forbidden reponse
+        if (response.statusCode == 400 || response.statusCode == 401 || response.statusCode == 403 || response.statusCode == 422) {
+            NSError *apiError = parseErrorResponse(json);
+            if (apiError != NULL) {
+                *error = apiError;
+            };
+        }
+
         return nil;
     }
-    
     
     return json;
 }

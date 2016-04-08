@@ -5,17 +5,17 @@
 	<key>Debug_Production</key>
 	<dict>
 		<key>CSApiBaseURL</key>
-		<string>localhost:3000/api</string>
+		<string>http://gamestore.dev</string>
 	</dict>
 	<key>Debug_Staging</key>
 	<dict>
 		<key>CSApiBaseURL</key>
-		<string>localhost:3000/api_staging</string>
+		<string>http://gamestore.dev</string>
 	</dict>
 	<key>Default</key>
 	<dict>
 		<key>CSApiBaseURL</key>
-		<string>localhost:3000/api</string>
+		<string>http://gamestore.dev</string>
 	</dict>
 </dict>
 </plist>

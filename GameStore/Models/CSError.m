@@ -13,8 +13,7 @@
 - (NSError *)error {
     
     NSDictionary *userInfo = @{
-                               NSLocalizedDescriptionKey:self.message ?: self.key,
-                               NSHelpAnchorErrorKey: self.key
+                               NSLocalizedDescriptionKey:self.message
                                };
     
     return [NSError errorWithDomain:@"com.appunite.supeuser.error-domain" code:self.code userInfo:userInfo];
@@ -26,8 +25,7 @@
 + (NSDictionary *)JSONKeyPathsByPropertyKey {
     return @{
              @"code": @"code",
-             @"key": @"key",
-             @"message": @"description"
+             @"message": @"errors"
              };
 }
 
