@@ -10,4 +10,11 @@
 
 @implementation AFHTTPSessionManager (Requests)
 
+- (NSMutableURLRequest *)requestLoginUserWithParams:(CSLoginUserParams *)params {
+    return [self.requestSerializer requestWithMethod:@"POST"
+                                           URLString:[NSString stringWithFormat:@"%@/sessions",self.baseURL]
+                                          parameters:params.params
+                                               error:nil];
+}
+
 @end

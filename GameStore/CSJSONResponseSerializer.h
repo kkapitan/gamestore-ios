@@ -1,5 +1,5 @@
 //
-//  TCApiClient.h
+//  CSJSONResponseSerializer.h
 //  GameStore
 //
 //  Created by Krzysztof Kapitan on 08.04.2016.
@@ -7,11 +7,8 @@
 //
 
 #import <AFNetworking/AFNetworking.h>
+#import "CSError.h"
 
-@interface CSApiClient : AFHTTPSessionManager
-
-+ (instancetype)sharedManager;
-
-- (void)enqueueOperation:(NSOperation *)operation;
+@interface CSJSONResponseSerializer : AFJSONResponseSerializer
 
 @end

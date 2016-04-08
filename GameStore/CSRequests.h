@@ -8,6 +8,11 @@
 
 #import <AFNetworking/AFNetworking.h>
 
+//Params
+#import "CSLoginUserParams.h"
+
 @interface AFHTTPSessionManager (Requests)
+
+- (NSMutableURLRequest *)requestLoginUserWithParams:(CSLoginUserParams *)params;
 
 @end

@@ -13,6 +13,18 @@
 		021CAF881CB7CA1B006CE6B9 /* CSRequests.m in Sources */ = {isa = PBXBuildFile; fileRef = 021CAF861CB7CA1B006CE6B9 /* CSRequests.m */; };
 		021CAF8B1CB7CDB1006CE6B9 /* CSAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 021CAF8A1CB7CDB1006CE6B9 /* CSAccount.m */; };
 		021CAF8C1CB7CDB1006CE6B9 /* CSAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 021CAF8A1CB7CDB1006CE6B9 /* CSAccount.m */; };
+		021CAF931CB7D14E006CE6B9 /* CSLoginUserParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 021CAF921CB7D14E006CE6B9 /* CSLoginUserParams.m */; };
+		021CAF941CB7D14E006CE6B9 /* CSLoginUserParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 021CAF921CB7D14E006CE6B9 /* CSLoginUserParams.m */; };
+		021CAF971CB7D3C8006CE6B9 /* CSSessionOperationsDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 021CAF961CB7D3C8006CE6B9 /* CSSessionOperationsDispatcher.m */; };
+		021CAF981CB7D3C8006CE6B9 /* CSSessionOperationsDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 021CAF961CB7D3C8006CE6B9 /* CSSessionOperationsDispatcher.m */; };
+		021CAF9B1CB7E8C4006CE6B9 /* CSUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 021CAF9A1CB7E8C4006CE6B9 /* CSUser.m */; };
+		021CAF9C1CB7E8C4006CE6B9 /* CSUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 021CAF9A1CB7E8C4006CE6B9 /* CSUser.m */; };
+		021CAF9F1CB7E980006CE6B9 /* CSJSONResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 021CAF9E1CB7E980006CE6B9 /* CSJSONResponseSerializer.m */; };
+		021CAFA01CB7E980006CE6B9 /* CSJSONResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 021CAF9E1CB7E980006CE6B9 /* CSJSONResponseSerializer.m */; };
+		021CAFA31CB7EA05006CE6B9 /* CSError.m in Sources */ = {isa = PBXBuildFile; fileRef = 021CAFA21CB7EA05006CE6B9 /* CSError.m */; };
+		021CAFA41CB7EA05006CE6B9 /* CSError.m in Sources */ = {isa = PBXBuildFile; fileRef = 021CAFA21CB7EA05006CE6B9 /* CSError.m */; };
+		021CAFA71CB7EFD1006CE6B9 /* CSUserResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 021CAFA61CB7EFD1006CE6B9 /* CSUserResponseSerializer.m */; };
+		021CAFA81CB7EFD1006CE6B9 /* CSUserResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 021CAFA61CB7EFD1006CE6B9 /* CSUserResponseSerializer.m */; };
 		026903E01CB7B5CC00A84585 /* CSEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = 026903DF1CB7B5CC00A84585 /* CSEnvironment.m */; };
 		026903E31CB7B83100A84585 /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 026903E21CB7B83100A84585 /* Configuration.plist */; };
 		026903E91CB7C38500A84585 /* CSEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = 026903DF1CB7B5CC00A84585 /* CSEnvironment.m */; };
@@ -57,6 +69,19 @@
 		021CAF861CB7CA1B006CE6B9 /* CSRequests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSRequests.m; sourceTree = "<group>"; };
 		021CAF891CB7CDB1006CE6B9 /* CSAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAccount.h; sourceTree = "<group>"; };
 		021CAF8A1CB7CDB1006CE6B9 /* CSAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAccount.m; sourceTree = "<group>"; };
+		021CAF8D1CB7D087006CE6B9 /* CSRequestParamsProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSRequestParamsProtocol.h; sourceTree = "<group>"; };
+		021CAF911CB7D14E006CE6B9 /* CSLoginUserParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSLoginUserParams.h; sourceTree = "<group>"; };
+		021CAF921CB7D14E006CE6B9 /* CSLoginUserParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSLoginUserParams.m; sourceTree = "<group>"; };
+		021CAF951CB7D3C8006CE6B9 /* CSSessionOperationsDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSSessionOperationsDispatcher.h; sourceTree = "<group>"; };
+		021CAF961CB7D3C8006CE6B9 /* CSSessionOperationsDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSSessionOperationsDispatcher.m; sourceTree = "<group>"; };
+		021CAF991CB7E8C4006CE6B9 /* CSUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSUser.h; sourceTree = "<group>"; };
+		021CAF9A1CB7E8C4006CE6B9 /* CSUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSUser.m; sourceTree = "<group>"; };
+		021CAF9D1CB7E980006CE6B9 /* CSJSONResponseSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSJSONResponseSerializer.h; sourceTree = "<group>"; };
+		021CAF9E1CB7E980006CE6B9 /* CSJSONResponseSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSJSONResponseSerializer.m; sourceTree = "<group>"; };
+		021CAFA11CB7EA05006CE6B9 /* CSError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSError.h; sourceTree = "<group>"; };
+		021CAFA21CB7EA05006CE6B9 /* CSError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSError.m; sourceTree = "<group>"; };
+		021CAFA51CB7EFD1006CE6B9 /* CSUserResponseSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSUserResponseSerializer.h; sourceTree = "<group>"; };
+		021CAFA61CB7EFD1006CE6B9 /* CSUserResponseSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSUserResponseSerializer.m; sourceTree = "<group>"; };
 		026903DE1CB7B5CC00A84585 /* CSEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSEnvironment.h; sourceTree = "<group>"; };
 		026903DF1CB7B5CC00A84585 /* CSEnvironment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSEnvironment.m; sourceTree = "<group>"; };
 		026903E21CB7B83100A84585 /* Configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Configuration.plist; sourceTree = "<group>"; };
@@ -155,6 +180,9 @@
 		021CAF831CB7C940006CE6B9 /* Parameters */ = {
 			isa = PBXGroup;
 			children = (
+				021CAF8D1CB7D087006CE6B9 /* CSRequestParamsProtocol.h */,
+				021CAF911CB7D14E006CE6B9 /* CSLoginUserParams.h */,
+				021CAF921CB7D14E006CE6B9 /* CSLoginUserParams.m */,
 			);
 			name = Parameters;
 			sourceTree = "<group>";
@@ -162,6 +190,10 @@
 		021CAF841CB7C94C006CE6B9 /* Serializers */ = {
 			isa = PBXGroup;
 			children = (
+				021CAF9D1CB7E980006CE6B9 /* CSJSONResponseSerializer.h */,
+				021CAF9E1CB7E980006CE6B9 /* CSJSONResponseSerializer.m */,
+				021CAFA51CB7EFD1006CE6B9 /* CSUserResponseSerializer.h */,
+				021CAFA61CB7EFD1006CE6B9 /* CSUserResponseSerializer.m */,
 			);
 			name = Serializers;
 			sourceTree = "<group>";
@@ -171,6 +203,8 @@
 			children = (
 				021CAF891CB7CDB1006CE6B9 /* CSAccount.h */,
 				021CAF8A1CB7CDB1006CE6B9 /* CSAccount.m */,
+				021CAF951CB7D3C8006CE6B9 /* CSSessionOperationsDispatcher.h */,
+				021CAF961CB7D3C8006CE6B9 /* CSSessionOperationsDispatcher.m */,
 			);
 			name = Helpers;
 			path = Resources;
@@ -237,6 +271,10 @@
 		BD574AFB18EA47FA00EDD66F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				021CAF991CB7E8C4006CE6B9 /* CSUser.h */,
+				021CAF9A1CB7E8C4006CE6B9 /* CSUser.m */,
+				021CAFA11CB7EA05006CE6B9 /* CSError.h */,
+				021CAFA21CB7EA05006CE6B9 /* CSError.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -796,15 +834,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				021CAFA01CB7E980006CE6B9 /* CSJSONResponseSerializer.m in Sources */,
 				026903E91CB7C38500A84585 /* CSEnvironment.m in Sources */,
+				021CAFA81CB7EFD1006CE6B9 /* CSUserResponseSerializer.m in Sources */,
+				021CAFA41CB7EA05006CE6B9 /* CSError.m in Sources */,
 				021CAF8C1CB7CDB1006CE6B9 /* CSAccount.m in Sources */,
 				021CAF881CB7CA1B006CE6B9 /* CSRequests.m in Sources */,
 				026903EA1CB7C38500A84585 /* CSAppDelegate.m in Sources */,
+				021CAF9C1CB7E8C4006CE6B9 /* CSUser.m in Sources */,
 				021CAF821CB7C894006CE6B9 /* CSApiClient.m in Sources */,
 				026903EB1CB7C38500A84585 /* AssetCatalogIdentifiers.m in Sources */,
 				026903EC1CB7C38500A84585 /* StoryboardIdentifiers.m in Sources */,
 				026903ED1CB7C38500A84585 /* main.m in Sources */,
+				021CAF981CB7D3C8006CE6B9 /* CSSessionOperationsDispatcher.m in Sources */,
 				026903EE1CB7C38500A84585 /* CSViewController.m in Sources */,
+				021CAF941CB7D14E006CE6B9 /* CSLoginUserParams.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -812,15 +856,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				021CAF9F1CB7E980006CE6B9 /* CSJSONResponseSerializer.m in Sources */,
 				026903E01CB7B5CC00A84585 /* CSEnvironment.m in Sources */,
+				021CAFA71CB7EFD1006CE6B9 /* CSUserResponseSerializer.m in Sources */,
+				021CAFA31CB7EA05006CE6B9 /* CSError.m in Sources */,
 				021CAF8B1CB7CDB1006CE6B9 /* CSAccount.m in Sources */,
 				021CAF871CB7CA1B006CE6B9 /* CSRequests.m in Sources */,
 				BDDB996318C3943B003EBC42 /* CSAppDelegate.m in Sources */,
+				021CAF9B1CB7E8C4006CE6B9 /* CSUser.m in Sources */,
 				021CAF811CB7C894006CE6B9 /* CSApiClient.m in Sources */,
 				BD934CD419C211F600B48551 /* AssetCatalogIdentifiers.m in Sources */,
 				BD934CD519C211F600B48551 /* StoryboardIdentifiers.m in Sources */,
 				BD6951CF18EA4B0800F2F410 /* main.m in Sources */,
+				021CAF971CB7D3C8006CE6B9 /* CSSessionOperationsDispatcher.m in Sources */,
 				BDDB996C18C3943B003EBC42 /* CSViewController.m in Sources */,
+				021CAF931CB7D14E006CE6B9 /* CSLoginUserParams.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
