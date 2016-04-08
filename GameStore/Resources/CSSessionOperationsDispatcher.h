@@ -20,5 +20,11 @@
 typedef void(^CSSessionOperationsDispatcherCompletionBlock)(BOOL success, CSUser *user, NSError *error);
 
 @interface CSSessionOperationsDispatcher : NSObject
+
 - (void)loginUserWithParams:(CSLoginUserParams *)params completion:(CSSessionOperationsDispatcherCompletionBlock)block;
+
+- (void)registerUserWithParams:(CSRegisterUserParams *)params completion:(CSSessionOperationsDispatcherCompletionBlock)block;
+
+- (void)logoutUserWithCompletion:(CSSessionOperationsDispatcherCompletionBlock)block;
+
 @end

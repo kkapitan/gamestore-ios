@@ -17,4 +17,19 @@
                                                error:nil];
 }
 
+- (NSMutableURLRequest *)requestRegisterUserWithParams:(CSRegisterUserParams *)params {
+    return [self.requestSerializer requestWithMethod:@"POST"
+                                           URLString:[NSString stringWithFormat:@"%@/users",self.baseURL]
+                                          parameters:params.params
+                                               error:nil];
+}
+
+- (NSMutableURLRequest *)requestLogoutCurrentUser {
+    return [self.requestSerializer requestWithMethod:@"DELETE"
+                                           URLString:[NSString stringWithFormat:@"%@/sessions/logout",self.baseURL]
+                                          parameters:nil
+                                               error:nil];
+}
+
+
 @end

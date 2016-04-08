@@ -10,9 +10,14 @@
 
 //Params
 #import "CSLoginUserParams.h"
+#import "CSRegisterUserParams.h"
 
 @interface AFHTTPSessionManager (Requests)
 
+// Session requests
+
 - (NSMutableURLRequest *)requestLoginUserWithParams:(CSLoginUserParams *)params;
+- (NSMutableURLRequest *)requestRegisterUserWithParams:(CSRegisterUserParams *)params;
+- (NSMutableURLRequest *)requestLogoutCurrentUser;
 
 @end

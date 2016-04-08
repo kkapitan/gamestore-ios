@@ -11,7 +11,7 @@
 @interface CSError : MTLModel <MTLJSONSerializing>
 
 @property (nonatomic, readonly, assign) NSInteger code;
-@property (nonatomic, readonly, strong) NSString *message;
+@property (nonatomic, readonly, strong) NSDictionary *messages;
 
 - (NSError *)error;
 

@@ -10,4 +10,12 @@
 
 @implementation CSAccount
 
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        self.accountName = @"GameStore";
+    }
+    return self;
+}
+
 @end

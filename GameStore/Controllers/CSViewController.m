@@ -8,6 +8,8 @@
 
 #import "CSViewController.h"
 #import "CSSessionOperationsDispatcher.h"
+#import "CSAccount.h"
+
 @interface CSViewController ()
 
 @end
@@ -17,10 +19,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    CSLoginUserParams *params = [[CSLoginUserParams alloc] initWithEmail:@"example@marketplace.com" password:@"12345678"];
-    [[CSSessionOperationsDispatcher new] loginUserWithParams:params completion:^(BOOL success, CSUser *user, NSError *error) {
-        
-    }];
 }
 
 @end

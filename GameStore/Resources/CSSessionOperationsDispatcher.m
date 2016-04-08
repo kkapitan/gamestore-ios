@@ -30,4 +30,46 @@
     [[CSApiClient sharedManager] enqueueOperation:operation];
 }
 
+- (void)registerUserWithParams:(CSRegisterUserParams *)params completion:(CSSessionOperationsDispatcherCompletionBlock)block {
+    
+    NSURLRequest *request = [[CSApiClient sharedManager] requestRegisterUserWithParams:params];
+    
+    AFHTTPRequestOperation *operation = [[AFHTTPRequestOperation alloc] initWithRequest:request];
+    operation.responseSerializer = [CSUserResponseSerializer serializer];
+    
+    [operation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *innerOperation, NSDictionary *responseObject) {
+        if (block) {
+            block(YES, responseObject[@"user"], nil);
+        }
+    } failure:^(AFHTTPRequestOperation *innerOperation, NSError *error) {
+        if (block) {
+            block(NO, nil, error);
+        }
+    }];
+    
+    [[CSApiClient sharedManager] enqueueOperation:operation];
+
+}
+
+- (void)logoutUserWithCompletion:(CSSessionOperationsDispatcherCompletionBlock)block {
+    
+    NSURLRequest *request = [[CSApiClient sharedManager] requestLogoutCurrentUser];
+    
+    AFHTTPRequestOperation *operation = [[AFHTTPRequestOperation alloc] initWithRequest:request];
+    operation.responseSerializer = [CSUserResponseSerializer serializer];
+    
+    [operation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *innerOperation, NSDictionary *responseObject) {
+        if (block) {
+            block(YES, nil, nil);
+        }
+    } failure:^(AFHTTPRequestOperation *innerOperation, NSError *error) {
+        if (block) {
+            block(NO, nil, error);
+        }
+    }];
+    
+    [[CSApiClient sharedManager] enqueueOperation:operation];
+    
+}
+
 @end

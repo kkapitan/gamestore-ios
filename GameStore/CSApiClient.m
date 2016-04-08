@@ -50,7 +50,7 @@
         NSString *token = [[CSAccount account] authenticationToken:nil];
         
         // add HTTP header
-        [jsonSerializer setValue:token forHTTPHeaderField:@"Authorize"];
+        [jsonSerializer setValue:token forHTTPHeaderField:@"Authorization"];
     };
     
     // setup default headers

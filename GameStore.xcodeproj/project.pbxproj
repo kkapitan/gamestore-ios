@@ -39,6 +39,8 @@
 		026903F51CB7C38500A84585 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDDB996D18C3943B003EBC42 /* Images.xcassets */; };
 		026903F61CB7C38500A84585 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BD304C8218E77F7E0034105E /* Settings.bundle */; };
 		026903F71CB7C38500A84585 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF68AF01B713C3400153C8D /* Main.storyboard */; };
+		02BCF92F1CB8220700E51490 /* CSRegisterUserParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF92E1CB8220700E51490 /* CSRegisterUserParams.m */; };
+		02BCF9301CB8220700E51490 /* CSRegisterUserParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF92E1CB8220700E51490 /* CSRegisterUserParams.m */; };
 		036A61EAF6146EA59BD29634 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A06B515E067379B8477A8245 /* libPods.a */; };
 		074C8AD7A4D403DECEE7F926 /* libPods-Specs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A5F5E57179B0D085AF4FF2 /* libPods-Specs.a */; };
 		BD304C8318E77F7E0034105E /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BD304C8218E77F7E0034105E /* Settings.bundle */; };
@@ -87,6 +89,8 @@
 		026903E21CB7B83100A84585 /* Configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Configuration.plist; sourceTree = "<group>"; };
 		026904061CB7C38500A84585 /* GameStore-Staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GameStore-Staging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		026904071CB7C38500A84585 /* GameStore copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GameStore copy-Info.plist"; path = "/Users/kkapitan/Projekty/iOS/gamestore-ios/GameStore/GameStore copy-Info.plist"; sourceTree = "<absolute>"; };
+		02BCF92D1CB8220700E51490 /* CSRegisterUserParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSRegisterUserParams.h; sourceTree = "<group>"; };
+		02BCF92E1CB8220700E51490 /* CSRegisterUserParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSRegisterUserParams.m; sourceTree = "<group>"; };
 		12CC9EC171F3BB2114E66841 /* Pods-Specs.test_staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs.test_staging.xcconfig"; path = "Pods/Target Support Files/Pods-Specs/Pods-Specs.test_staging.xcconfig"; sourceTree = "<group>"; };
 		2CB569C4CA54BBB2A8A3438F /* Pods.adhoc_production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.adhoc_production.xcconfig; path = "Pods/Target Support Files/Pods/Pods.adhoc_production.xcconfig"; sourceTree = "<group>"; };
 		326C1F0145B5BE66CBCC67F1 /* Pods-Specs.test_production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs.test_production.xcconfig"; path = "Pods/Target Support Files/Pods-Specs/Pods-Specs.test_production.xcconfig"; sourceTree = "<group>"; };
@@ -183,6 +187,8 @@
 				021CAF8D1CB7D087006CE6B9 /* CSRequestParamsProtocol.h */,
 				021CAF911CB7D14E006CE6B9 /* CSLoginUserParams.h */,
 				021CAF921CB7D14E006CE6B9 /* CSLoginUserParams.m */,
+				02BCF92D1CB8220700E51490 /* CSRegisterUserParams.h */,
+				02BCF92E1CB8220700E51490 /* CSRegisterUserParams.m */,
 			);
 			name = Parameters;
 			sourceTree = "<group>";
@@ -849,6 +855,7 @@
 				021CAF981CB7D3C8006CE6B9 /* CSSessionOperationsDispatcher.m in Sources */,
 				026903EE1CB7C38500A84585 /* CSViewController.m in Sources */,
 				021CAF941CB7D14E006CE6B9 /* CSLoginUserParams.m in Sources */,
+				02BCF9301CB8220700E51490 /* CSRegisterUserParams.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -871,6 +878,7 @@
 				021CAF971CB7D3C8006CE6B9 /* CSSessionOperationsDispatcher.m in Sources */,
 				BDDB996C18C3943B003EBC42 /* CSViewController.m in Sources */,
 				021CAF931CB7D14E006CE6B9 /* CSLoginUserParams.m in Sources */,
+				02BCF92F1CB8220700E51490 /* CSRegisterUserParams.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
