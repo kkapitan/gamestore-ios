@@ -8,4 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-static NSString const* kCSEnvironmentApiBaseURLKey = @"CSApiBaseURL";
+static NSString *const kCSEnvironmentApiBaseURLKey = @"CSApiBaseURL";
+
+static NSString *const kCSErrorDomain = @"com.cappsoft.gamestore.error-domain";

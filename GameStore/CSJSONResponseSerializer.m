@@ -47,7 +47,7 @@
     // default validation
     if (![self validateResponse:response data:data error:NULL]) {
         // handle forbidden reponse
-        if (response.statusCode == 400 || response.statusCode == 401 || response.statusCode == 403 || response.statusCode == 422) {
+        if (response.statusCode == 400 || response.statusCode == 401 || response.statusCode == 403 || response.statusCode == 422 || response.statusCode == 404) {
             NSError *apiError = parseErrorResponse(json);
             if (apiError != NULL) {
                 *error = apiError;

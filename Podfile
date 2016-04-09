@@ -14,6 +14,8 @@ pod 'FastCoding'
 # Formatting
 pod 'FormatterKit'    # For all your string formatting needs
 
+# Progress hud
+pod 'MBProgressHUD'
 
 # Inform CocoaPods that we use some custom build configurations
 # Leave this in place unless you've tweaked the project's targets and configurations.

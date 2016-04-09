@@ -13,10 +13,10 @@
 - (NSError *)error {
     
     NSDictionary *userInfo = @{
-                               @"messages": self.messages
+                               @"message": self.messages.allValues.firstObject[0] ?: @"An error occured"
                                };
     
-    return [NSError errorWithDomain:@"com.appunite.supeuser.error-domain" code:self.code userInfo:userInfo];
+    return [NSError errorWithDomain:kCSErrorDomain code:self.code userInfo:userInfo];
 }
 
 #pragma mark -

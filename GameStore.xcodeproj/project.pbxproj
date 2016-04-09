@@ -32,7 +32,6 @@
 		026903EB1CB7C38500A84585 /* AssetCatalogIdentifiers.m in Sources */ = {isa = PBXBuildFile; fileRef = BD934CD119C211F600B48551 /* AssetCatalogIdentifiers.m */; };
 		026903EC1CB7C38500A84585 /* StoryboardIdentifiers.m in Sources */ = {isa = PBXBuildFile; fileRef = BD934CD319C211F600B48551 /* StoryboardIdentifiers.m */; };
 		026903ED1CB7C38500A84585 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6951CE18EA4B0800F2F410 /* main.m */; };
-		026903EE1CB7C38500A84585 /* CSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDB996B18C3943B003EBC42 /* CSViewController.m */; };
 		026903F01CB7C38500A84585 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A06B515E067379B8477A8245 /* libPods.a */; };
 		026903F31CB7C38500A84585 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDF68AF21B713C6200153C8D /* LaunchScreen.xib */; };
 		026903F41CB7C38500A84585 /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 026903E21CB7B83100A84585 /* Configuration.plist */; };
@@ -41,6 +40,18 @@
 		026903F71CB7C38500A84585 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF68AF01B713C3400153C8D /* Main.storyboard */; };
 		02BCF92F1CB8220700E51490 /* CSRegisterUserParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF92E1CB8220700E51490 /* CSRegisterUserParams.m */; };
 		02BCF9301CB8220700E51490 /* CSRegisterUserParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF92E1CB8220700E51490 /* CSRegisterUserParams.m */; };
+		02BCF9341CB900BB00E51490 /* CSSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF9331CB900BB00E51490 /* CSSignInViewController.m */; };
+		02BCF9371CB900D500E51490 /* CSSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF9361CB900D500E51490 /* CSSignUpViewController.m */; };
+		02BCF9381CB900D500E51490 /* CSSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF9361CB900D500E51490 /* CSSignUpViewController.m */; };
+		02BCF9391CB900DB00E51490 /* CSSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF9331CB900BB00E51490 /* CSSignInViewController.m */; };
+		02BCF93D1CB9025B00E51490 /* CSSignInViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF93C1CB9025B00E51490 /* CSSignInViewModel.m */; };
+		02BCF93E1CB9025B00E51490 /* CSSignInViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF93C1CB9025B00E51490 /* CSSignInViewModel.m */; };
+		02BCF9441CB9032D00E51490 /* NSString+Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF9431CB9032D00E51490 /* NSString+Validation.m */; };
+		02BCF9451CB9032D00E51490 /* NSString+Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF9431CB9032D00E51490 /* NSString+Validation.m */; };
+		02BCF9481CB9077800E51490 /* UIAlertController+Errors.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF9471CB9077800E51490 /* UIAlertController+Errors.m */; };
+		02BCF9491CB9077800E51490 /* UIAlertController+Errors.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF9471CB9077800E51490 /* UIAlertController+Errors.m */; };
+		02BCF94E1CB9326900E51490 /* CSSignUpViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF94D1CB9326900E51490 /* CSSignUpViewModel.m */; };
+		02BCF94F1CB9326900E51490 /* CSSignUpViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF94D1CB9326900E51490 /* CSSignUpViewModel.m */; };
 		036A61EAF6146EA59BD29634 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A06B515E067379B8477A8245 /* libPods.a */; };
 		074C8AD7A4D403DECEE7F926 /* libPods-Specs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A5F5E57179B0D085AF4FF2 /* libPods-Specs.a */; };
 		BD304C8318E77F7E0034105E /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BD304C8218E77F7E0034105E /* Settings.bundle */; };
@@ -48,7 +59,6 @@
 		BD934CD419C211F600B48551 /* AssetCatalogIdentifiers.m in Sources */ = {isa = PBXBuildFile; fileRef = BD934CD119C211F600B48551 /* AssetCatalogIdentifiers.m */; };
 		BD934CD519C211F600B48551 /* StoryboardIdentifiers.m in Sources */ = {isa = PBXBuildFile; fileRef = BD934CD319C211F600B48551 /* StoryboardIdentifiers.m */; };
 		BDDB996318C3943B003EBC42 /* CSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDB996218C3943B003EBC42 /* CSAppDelegate.m */; };
-		BDDB996C18C3943B003EBC42 /* CSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDB996B18C3943B003EBC42 /* CSViewController.m */; };
 		BDDB996E18C3943B003EBC42 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDDB996D18C3943B003EBC42 /* Images.xcassets */; };
 		BDF68AF11B713C3400153C8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF68AF01B713C3400153C8D /* Main.storyboard */; };
 		BDF68AF31B713C6200153C8D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDF68AF21B713C6200153C8D /* LaunchScreen.xib */; };
@@ -91,6 +101,18 @@
 		026904071CB7C38500A84585 /* GameStore copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GameStore copy-Info.plist"; path = "/Users/kkapitan/Projekty/iOS/gamestore-ios/GameStore/GameStore copy-Info.plist"; sourceTree = "<absolute>"; };
 		02BCF92D1CB8220700E51490 /* CSRegisterUserParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSRegisterUserParams.h; sourceTree = "<group>"; };
 		02BCF92E1CB8220700E51490 /* CSRegisterUserParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSRegisterUserParams.m; sourceTree = "<group>"; };
+		02BCF9321CB900BB00E51490 /* CSSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSSignInViewController.h; sourceTree = "<group>"; };
+		02BCF9331CB900BB00E51490 /* CSSignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSSignInViewController.m; sourceTree = "<group>"; };
+		02BCF9351CB900D500E51490 /* CSSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSSignUpViewController.h; sourceTree = "<group>"; };
+		02BCF9361CB900D500E51490 /* CSSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSSignUpViewController.m; sourceTree = "<group>"; };
+		02BCF93B1CB9025B00E51490 /* CSSignInViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSSignInViewModel.h; sourceTree = "<group>"; };
+		02BCF93C1CB9025B00E51490 /* CSSignInViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSSignInViewModel.m; sourceTree = "<group>"; };
+		02BCF9421CB9032D00E51490 /* NSString+Validation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Validation.h"; sourceTree = "<group>"; };
+		02BCF9431CB9032D00E51490 /* NSString+Validation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Validation.m"; sourceTree = "<group>"; };
+		02BCF9461CB9077800E51490 /* UIAlertController+Errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Errors.h"; sourceTree = "<group>"; };
+		02BCF9471CB9077800E51490 /* UIAlertController+Errors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Errors.m"; sourceTree = "<group>"; };
+		02BCF94C1CB9326900E51490 /* CSSignUpViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSSignUpViewModel.h; sourceTree = "<group>"; };
+		02BCF94D1CB9326900E51490 /* CSSignUpViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSSignUpViewModel.m; sourceTree = "<group>"; };
 		12CC9EC171F3BB2114E66841 /* Pods-Specs.test_staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs.test_staging.xcconfig"; path = "Pods/Target Support Files/Pods-Specs/Pods-Specs.test_staging.xcconfig"; sourceTree = "<group>"; };
 		2CB569C4CA54BBB2A8A3438F /* Pods.adhoc_production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.adhoc_production.xcconfig; path = "Pods/Target Support Files/Pods/Pods.adhoc_production.xcconfig"; sourceTree = "<group>"; };
 		326C1F0145B5BE66CBCC67F1 /* Pods-Specs.test_production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs.test_production.xcconfig"; path = "Pods/Target Support Files/Pods-Specs/Pods-Specs.test_production.xcconfig"; sourceTree = "<group>"; };
@@ -128,8 +150,6 @@
 		BDDB994F18C3943B003EBC42 /* GameStore-Production.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GameStore-Production.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDDB996118C3943B003EBC42 /* CSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSAppDelegate.h; sourceTree = "<group>"; };
 		BDDB996218C3943B003EBC42 /* CSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSAppDelegate.m; sourceTree = "<group>"; };
-		BDDB996A18C3943B003EBC42 /* CSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSViewController.h; sourceTree = "<group>"; };
-		BDDB996B18C3943B003EBC42 /* CSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSViewController.m; sourceTree = "<group>"; };
 		BDDB996D18C3943B003EBC42 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BDDB997318C3943B003EBC42 /* Specs.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Specs.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDDB997C18C3943B003EBC42 /* Specs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Specs-Info.plist"; sourceTree = "<group>"; };
@@ -207,10 +227,10 @@
 		026903DD1CB7B36100A84585 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				02BCF9411CB902ED00E51490 /* Categories */,
+				02BCF9401CB902E100E51490 /* Operations */,
 				021CAF891CB7CDB1006CE6B9 /* CSAccount.h */,
 				021CAF8A1CB7CDB1006CE6B9 /* CSAccount.m */,
-				021CAF951CB7D3C8006CE6B9 /* CSSessionOperationsDispatcher.h */,
-				021CAF961CB7D3C8006CE6B9 /* CSSessionOperationsDispatcher.m */,
 			);
 			name = Helpers;
 			path = Resources;
@@ -224,6 +244,73 @@
 				026903E21CB7B83100A84585 /* Configuration.plist */,
 			);
 			name = Environment;
+			sourceTree = "<group>";
+		};
+		02BCF9311CB9007800E51490 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				BDF68AF01B713C3400153C8D /* Main.storyboard */,
+			);
+			name = Storyboards;
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		02BCF93A1CB9020200E51490 /* Sign In */ = {
+			isa = PBXGroup;
+			children = (
+				02BCF93F1CB9026300E51490 /* View Model */,
+				02BCF9321CB900BB00E51490 /* CSSignInViewController.h */,
+				02BCF9331CB900BB00E51490 /* CSSignInViewController.m */,
+			);
+			name = "Sign In";
+			sourceTree = "<group>";
+		};
+		02BCF93F1CB9026300E51490 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				02BCF93B1CB9025B00E51490 /* CSSignInViewModel.h */,
+				02BCF93C1CB9025B00E51490 /* CSSignInViewModel.m */,
+			);
+			name = "View Model";
+			sourceTree = "<group>";
+		};
+		02BCF9401CB902E100E51490 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				021CAF951CB7D3C8006CE6B9 /* CSSessionOperationsDispatcher.h */,
+				021CAF961CB7D3C8006CE6B9 /* CSSessionOperationsDispatcher.m */,
+			);
+			name = Operations;
+			sourceTree = "<group>";
+		};
+		02BCF9411CB902ED00E51490 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				02BCF9421CB9032D00E51490 /* NSString+Validation.h */,
+				02BCF9431CB9032D00E51490 /* NSString+Validation.m */,
+				02BCF9461CB9077800E51490 /* UIAlertController+Errors.h */,
+				02BCF9471CB9077800E51490 /* UIAlertController+Errors.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		02BCF94A1CB9313800E51490 /* Sign Up */ = {
+			isa = PBXGroup;
+			children = (
+				02BCF94B1CB9313F00E51490 /* View Model */,
+				02BCF9351CB900D500E51490 /* CSSignUpViewController.h */,
+				02BCF9361CB900D500E51490 /* CSSignUpViewController.m */,
+			);
+			name = "Sign Up";
+			sourceTree = "<group>";
+		};
+		02BCF94B1CB9313F00E51490 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				02BCF94C1CB9326900E51490 /* CSSignUpViewModel.h */,
+				02BCF94D1CB9326900E51490 /* CSSignUpViewModel.m */,
+			);
+			name = "View Model";
 			sourceTree = "<group>";
 		};
 		55C5AA14CC157D6E10D487F9 /* Pods */ = {
@@ -331,9 +418,8 @@
 		BDB71B2618EA471400579B97 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				BDF68AF01B713C3400153C8D /* Main.storyboard */,
-				BDDB996A18C3943B003EBC42 /* CSViewController.h */,
-				BDDB996B18C3943B003EBC42 /* CSViewController.m */,
+				02BCF93A1CB9020200E51490 /* Sign In */,
+				02BCF94A1CB9313800E51490 /* Sign Up */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -367,6 +453,7 @@
 			isa = PBXGroup;
 			children = (
 				021CAF7E1CB7C767006CE6B9 /* API */,
+				02BCF9311CB9007800E51490 /* Storyboards */,
 				BDB71B2618EA471400579B97 /* Controllers */,
 				BD574AFB18EA47FA00EDD66F /* Models */,
 				026903DD1CB7B36100A84585 /* Helpers */,
@@ -841,6 +928,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				021CAFA01CB7E980006CE6B9 /* CSJSONResponseSerializer.m in Sources */,
+				02BCF9451CB9032D00E51490 /* NSString+Validation.m in Sources */,
 				026903E91CB7C38500A84585 /* CSEnvironment.m in Sources */,
 				021CAFA81CB7EFD1006CE6B9 /* CSUserResponseSerializer.m in Sources */,
 				021CAFA41CB7EA05006CE6B9 /* CSError.m in Sources */,
@@ -852,10 +940,14 @@
 				026903EB1CB7C38500A84585 /* AssetCatalogIdentifiers.m in Sources */,
 				026903EC1CB7C38500A84585 /* StoryboardIdentifiers.m in Sources */,
 				026903ED1CB7C38500A84585 /* main.m in Sources */,
+				02BCF9391CB900DB00E51490 /* CSSignInViewController.m in Sources */,
 				021CAF981CB7D3C8006CE6B9 /* CSSessionOperationsDispatcher.m in Sources */,
-				026903EE1CB7C38500A84585 /* CSViewController.m in Sources */,
 				021CAF941CB7D14E006CE6B9 /* CSLoginUserParams.m in Sources */,
+				02BCF9381CB900D500E51490 /* CSSignUpViewController.m in Sources */,
+				02BCF93E1CB9025B00E51490 /* CSSignInViewModel.m in Sources */,
+				02BCF94F1CB9326900E51490 /* CSSignUpViewModel.m in Sources */,
 				02BCF9301CB8220700E51490 /* CSRegisterUserParams.m in Sources */,
+				02BCF9491CB9077800E51490 /* UIAlertController+Errors.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -863,6 +955,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02BCF9341CB900BB00E51490 /* CSSignInViewController.m in Sources */,
+				02BCF9441CB9032D00E51490 /* NSString+Validation.m in Sources */,
+				02BCF9371CB900D500E51490 /* CSSignUpViewController.m in Sources */,
 				021CAF9F1CB7E980006CE6B9 /* CSJSONResponseSerializer.m in Sources */,
 				026903E01CB7B5CC00A84585 /* CSEnvironment.m in Sources */,
 				021CAFA71CB7EFD1006CE6B9 /* CSUserResponseSerializer.m in Sources */,
@@ -876,9 +971,11 @@
 				BD934CD519C211F600B48551 /* StoryboardIdentifiers.m in Sources */,
 				BD6951CF18EA4B0800F2F410 /* main.m in Sources */,
 				021CAF971CB7D3C8006CE6B9 /* CSSessionOperationsDispatcher.m in Sources */,
-				BDDB996C18C3943B003EBC42 /* CSViewController.m in Sources */,
 				021CAF931CB7D14E006CE6B9 /* CSLoginUserParams.m in Sources */,
+				02BCF93D1CB9025B00E51490 /* CSSignInViewModel.m in Sources */,
+				02BCF94E1CB9326900E51490 /* CSSignUpViewModel.m in Sources */,
 				02BCF92F1CB8220700E51490 /* CSRegisterUserParams.m in Sources */,
+				02BCF9481CB9077800E51490 /* UIAlertController+Errors.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
