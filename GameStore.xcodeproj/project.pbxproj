@@ -52,6 +52,30 @@
 		02BCF9491CB9077800E51490 /* UIAlertController+Errors.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF9471CB9077800E51490 /* UIAlertController+Errors.m */; };
 		02BCF94E1CB9326900E51490 /* CSSignUpViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF94D1CB9326900E51490 /* CSSignUpViewModel.m */; };
 		02BCF94F1CB9326900E51490 /* CSSignUpViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF94D1CB9326900E51490 /* CSSignUpViewModel.m */; };
+		02BCF9511CB9539000E51490 /* Store.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02BCF9501CB9539000E51490 /* Store.storyboard */; };
+		02BCF9521CB9539000E51490 /* Store.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02BCF9501CB9539000E51490 /* Store.storyboard */; };
+		02BCF9581CBA558F00E51490 /* CSGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF9571CBA558F00E51490 /* CSGame.m */; };
+		02BCF9591CBA558F00E51490 /* CSGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF9571CBA558F00E51490 /* CSGame.m */; };
+		02BCF95E1CBA5C1600E51490 /* CSLibraryViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF95D1CBA5C1600E51490 /* CSLibraryViewModel.m */; };
+		02BCF95F1CBA5C1600E51490 /* CSLibraryViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF95D1CBA5C1600E51490 /* CSLibraryViewModel.m */; };
+		02BCF9621CBA5C4700E51490 /* CSLibraryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF9611CBA5C4700E51490 /* CSLibraryTableViewCell.m */; };
+		02BCF9631CBA5C4700E51490 /* CSLibraryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF9611CBA5C4700E51490 /* CSLibraryTableViewCell.m */; };
+		02BCF9661CBA5CD600E51490 /* CSLibraryCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF9651CBA5CD600E51490 /* CSLibraryCellViewModel.m */; };
+		02BCF9671CBA5CD600E51490 /* CSLibraryCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF9651CBA5CD600E51490 /* CSLibraryCellViewModel.m */; };
+		02BCF96A1CBA5D1200E51490 /* CSLibraryTableViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF9691CBA5D1200E51490 /* CSLibraryTableViewHeader.m */; };
+		02BCF96B1CBA5D1200E51490 /* CSLibraryTableViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF9691CBA5D1200E51490 /* CSLibraryTableViewHeader.m */; };
+		02BCF96E1CBA5D4500E51490 /* CSLibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF96D1CBA5D4500E51490 /* CSLibraryViewController.m */; };
+		02BCF96F1CBA5D4500E51490 /* CSLibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF96D1CBA5D4500E51490 /* CSLibraryViewController.m */; };
+		02BCF9711CBA5EA500E51490 /* CSLibraryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02BCF9701CBA5EA500E51490 /* CSLibraryTableViewCell.xib */; };
+		02BCF9721CBA5EA500E51490 /* CSLibraryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02BCF9701CBA5EA500E51490 /* CSLibraryTableViewCell.xib */; };
+		02BCF9741CBA5EC700E51490 /* CSLibraryTableViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02BCF9731CBA5EC700E51490 /* CSLibraryTableViewHeader.xib */; };
+		02BCF9751CBA5EC700E51490 /* CSLibraryTableViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02BCF9731CBA5EC700E51490 /* CSLibraryTableViewHeader.xib */; };
+		02BCF9781CBA61A000E51490 /* CSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF9771CBA61A000E51490 /* CSTableViewCell.m */; };
+		02BCF9791CBA61A000E51490 /* CSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF9771CBA61A000E51490 /* CSTableViewCell.m */; };
+		02BCF97C1CBA761800E51490 /* CSView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF97B1CBA761800E51490 /* CSView.m */; };
+		02BCF97D1CBA761800E51490 /* CSView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF97B1CBA761800E51490 /* CSView.m */; };
+		02BCF9801CBA7BDB00E51490 /* CSLibraryHeaderViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF97F1CBA7BDB00E51490 /* CSLibraryHeaderViewModel.m */; };
+		02BCF9811CBA7BDB00E51490 /* CSLibraryHeaderViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF97F1CBA7BDB00E51490 /* CSLibraryHeaderViewModel.m */; };
 		036A61EAF6146EA59BD29634 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A06B515E067379B8477A8245 /* libPods.a */; };
 		074C8AD7A4D403DECEE7F926 /* libPods-Specs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A5F5E57179B0D085AF4FF2 /* libPods-Specs.a */; };
 		BD304C8318E77F7E0034105E /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BD304C8218E77F7E0034105E /* Settings.bundle */; };
@@ -113,6 +137,27 @@
 		02BCF9471CB9077800E51490 /* UIAlertController+Errors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Errors.m"; sourceTree = "<group>"; };
 		02BCF94C1CB9326900E51490 /* CSSignUpViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSSignUpViewModel.h; sourceTree = "<group>"; };
 		02BCF94D1CB9326900E51490 /* CSSignUpViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSSignUpViewModel.m; sourceTree = "<group>"; };
+		02BCF9501CB9539000E51490 /* Store.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Store.storyboard; sourceTree = "<group>"; };
+		02BCF9561CBA558F00E51490 /* CSGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSGame.h; sourceTree = "<group>"; };
+		02BCF9571CBA558F00E51490 /* CSGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSGame.m; sourceTree = "<group>"; };
+		02BCF95C1CBA5C1600E51490 /* CSLibraryViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSLibraryViewModel.h; sourceTree = "<group>"; };
+		02BCF95D1CBA5C1600E51490 /* CSLibraryViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSLibraryViewModel.m; sourceTree = "<group>"; };
+		02BCF9601CBA5C4700E51490 /* CSLibraryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSLibraryTableViewCell.h; sourceTree = "<group>"; };
+		02BCF9611CBA5C4700E51490 /* CSLibraryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSLibraryTableViewCell.m; sourceTree = "<group>"; };
+		02BCF9641CBA5CD600E51490 /* CSLibraryCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSLibraryCellViewModel.h; sourceTree = "<group>"; };
+		02BCF9651CBA5CD600E51490 /* CSLibraryCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSLibraryCellViewModel.m; sourceTree = "<group>"; };
+		02BCF9681CBA5D1200E51490 /* CSLibraryTableViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSLibraryTableViewHeader.h; sourceTree = "<group>"; };
+		02BCF9691CBA5D1200E51490 /* CSLibraryTableViewHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSLibraryTableViewHeader.m; sourceTree = "<group>"; };
+		02BCF96C1CBA5D4500E51490 /* CSLibraryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSLibraryViewController.h; sourceTree = "<group>"; };
+		02BCF96D1CBA5D4500E51490 /* CSLibraryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSLibraryViewController.m; sourceTree = "<group>"; };
+		02BCF9701CBA5EA500E51490 /* CSLibraryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CSLibraryTableViewCell.xib; sourceTree = "<group>"; };
+		02BCF9731CBA5EC700E51490 /* CSLibraryTableViewHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CSLibraryTableViewHeader.xib; sourceTree = "<group>"; };
+		02BCF9761CBA61A000E51490 /* CSTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSTableViewCell.h; sourceTree = "<group>"; };
+		02BCF9771CBA61A000E51490 /* CSTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSTableViewCell.m; sourceTree = "<group>"; };
+		02BCF97A1CBA761800E51490 /* CSView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSView.h; sourceTree = "<group>"; };
+		02BCF97B1CBA761800E51490 /* CSView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSView.m; sourceTree = "<group>"; };
+		02BCF97E1CBA7BDB00E51490 /* CSLibraryHeaderViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSLibraryHeaderViewModel.h; sourceTree = "<group>"; };
+		02BCF97F1CBA7BDB00E51490 /* CSLibraryHeaderViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSLibraryHeaderViewModel.m; sourceTree = "<group>"; };
 		12CC9EC171F3BB2114E66841 /* Pods-Specs.test_staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs.test_staging.xcconfig"; path = "Pods/Target Support Files/Pods-Specs/Pods-Specs.test_staging.xcconfig"; sourceTree = "<group>"; };
 		2CB569C4CA54BBB2A8A3438F /* Pods.adhoc_production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.adhoc_production.xcconfig; path = "Pods/Target Support Files/Pods/Pods.adhoc_production.xcconfig"; sourceTree = "<group>"; };
 		326C1F0145B5BE66CBCC67F1 /* Pods-Specs.test_production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs.test_production.xcconfig"; path = "Pods/Target Support Files/Pods-Specs/Pods-Specs.test_production.xcconfig"; sourceTree = "<group>"; };
@@ -250,6 +295,7 @@
 			isa = PBXGroup;
 			children = (
 				BDF68AF01B713C3400153C8D /* Main.storyboard */,
+				02BCF9501CB9539000E51490 /* Store.storyboard */,
 			);
 			name = Storyboards;
 			path = Controllers;
@@ -258,6 +304,7 @@
 		02BCF93A1CB9020200E51490 /* Sign In */ = {
 			isa = PBXGroup;
 			children = (
+				02BCF95A1CBA5B5400E51490 /* ViewModel */,
 				02BCF93F1CB9026300E51490 /* View Model */,
 				02BCF9321CB900BB00E51490 /* CSSignInViewController.h */,
 				02BCF9331CB900BB00E51490 /* CSSignInViewController.m */,
@@ -309,6 +356,50 @@
 			children = (
 				02BCF94C1CB9326900E51490 /* CSSignUpViewModel.h */,
 				02BCF94D1CB9326900E51490 /* CSSignUpViewModel.m */,
+			);
+			name = "View Model";
+			sourceTree = "<group>";
+		};
+		02BCF9531CBA54E800E51490 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				02BCF95B1CBA5B8000E51490 /* View Model */,
+				02BCF9541CBA555C00E51490 /* Views */,
+				02BCF96C1CBA5D4500E51490 /* CSLibraryViewController.h */,
+				02BCF96D1CBA5D4500E51490 /* CSLibraryViewController.m */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		02BCF9541CBA555C00E51490 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				02BCF9601CBA5C4700E51490 /* CSLibraryTableViewCell.h */,
+				02BCF9611CBA5C4700E51490 /* CSLibraryTableViewCell.m */,
+				02BCF9681CBA5D1200E51490 /* CSLibraryTableViewHeader.h */,
+				02BCF9691CBA5D1200E51490 /* CSLibraryTableViewHeader.m */,
+				02BCF9701CBA5EA500E51490 /* CSLibraryTableViewCell.xib */,
+				02BCF9731CBA5EC700E51490 /* CSLibraryTableViewHeader.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		02BCF95A1CBA5B5400E51490 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		02BCF95B1CBA5B8000E51490 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				02BCF95C1CBA5C1600E51490 /* CSLibraryViewModel.h */,
+				02BCF95D1CBA5C1600E51490 /* CSLibraryViewModel.m */,
+				02BCF9641CBA5CD600E51490 /* CSLibraryCellViewModel.h */,
+				02BCF9651CBA5CD600E51490 /* CSLibraryCellViewModel.m */,
+				02BCF97E1CBA7BDB00E51490 /* CSLibraryHeaderViewModel.h */,
+				02BCF97F1CBA7BDB00E51490 /* CSLibraryHeaderViewModel.m */,
 			);
 			name = "View Model";
 			sourceTree = "<group>";
@@ -368,6 +459,8 @@
 				021CAF9A1CB7E8C4006CE6B9 /* CSUser.m */,
 				021CAFA11CB7EA05006CE6B9 /* CSError.h */,
 				021CAFA21CB7EA05006CE6B9 /* CSError.m */,
+				02BCF9561CBA558F00E51490 /* CSGame.h */,
+				02BCF9571CBA558F00E51490 /* CSGame.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -388,6 +481,10 @@
 		BD574B0318EA481500EDD66F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				02BCF9761CBA61A000E51490 /* CSTableViewCell.h */,
+				02BCF9771CBA61A000E51490 /* CSTableViewCell.m */,
+				02BCF97A1CBA761800E51490 /* CSView.h */,
+				02BCF97B1CBA761800E51490 /* CSView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -420,6 +517,7 @@
 			children = (
 				02BCF93A1CB9020200E51490 /* Sign In */,
 				02BCF94A1CB9313800E51490 /* Sign Up */,
+				02BCF9531CBA54E800E51490 /* Library */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -605,9 +703,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02BCF9521CB9539000E51490 /* Store.storyboard in Resources */,
 				026903F31CB7C38500A84585 /* LaunchScreen.xib in Resources */,
 				026903F41CB7C38500A84585 /* Configuration.plist in Resources */,
 				026903F51CB7C38500A84585 /* Images.xcassets in Resources */,
+				02BCF9751CBA5EC700E51490 /* CSLibraryTableViewHeader.xib in Resources */,
+				02BCF9721CBA5EA500E51490 /* CSLibraryTableViewCell.xib in Resources */,
 				026903F61CB7C38500A84585 /* Settings.bundle in Resources */,
 				026903F71CB7C38500A84585 /* Main.storyboard in Resources */,
 			);
@@ -617,9 +718,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02BCF9511CB9539000E51490 /* Store.storyboard in Resources */,
 				BDF68AF31B713C6200153C8D /* LaunchScreen.xib in Resources */,
 				026903E31CB7B83100A84585 /* Configuration.plist in Resources */,
 				BDDB996E18C3943B003EBC42 /* Images.xcassets in Resources */,
+				02BCF9741CBA5EC700E51490 /* CSLibraryTableViewHeader.xib in Resources */,
+				02BCF9711CBA5EA500E51490 /* CSLibraryTableViewCell.xib in Resources */,
 				BD304C8318E77F7E0034105E /* Settings.bundle in Resources */,
 				BDF68AF11B713C3400153C8D /* Main.storyboard in Resources */,
 			);
@@ -934,18 +1038,27 @@
 				021CAFA41CB7EA05006CE6B9 /* CSError.m in Sources */,
 				021CAF8C1CB7CDB1006CE6B9 /* CSAccount.m in Sources */,
 				021CAF881CB7CA1B006CE6B9 /* CSRequests.m in Sources */,
+				02BCF9591CBA558F00E51490 /* CSGame.m in Sources */,
 				026903EA1CB7C38500A84585 /* CSAppDelegate.m in Sources */,
+				02BCF9791CBA61A000E51490 /* CSTableViewCell.m in Sources */,
 				021CAF9C1CB7E8C4006CE6B9 /* CSUser.m in Sources */,
 				021CAF821CB7C894006CE6B9 /* CSApiClient.m in Sources */,
 				026903EB1CB7C38500A84585 /* AssetCatalogIdentifiers.m in Sources */,
+				02BCF9671CBA5CD600E51490 /* CSLibraryCellViewModel.m in Sources */,
 				026903EC1CB7C38500A84585 /* StoryboardIdentifiers.m in Sources */,
 				026903ED1CB7C38500A84585 /* main.m in Sources */,
 				02BCF9391CB900DB00E51490 /* CSSignInViewController.m in Sources */,
+				02BCF96F1CBA5D4500E51490 /* CSLibraryViewController.m in Sources */,
+				02BCF95F1CBA5C1600E51490 /* CSLibraryViewModel.m in Sources */,
 				021CAF981CB7D3C8006CE6B9 /* CSSessionOperationsDispatcher.m in Sources */,
+				02BCF9631CBA5C4700E51490 /* CSLibraryTableViewCell.m in Sources */,
 				021CAF941CB7D14E006CE6B9 /* CSLoginUserParams.m in Sources */,
+				02BCF96B1CBA5D1200E51490 /* CSLibraryTableViewHeader.m in Sources */,
+				02BCF97D1CBA761800E51490 /* CSView.m in Sources */,
 				02BCF9381CB900D500E51490 /* CSSignUpViewController.m in Sources */,
 				02BCF93E1CB9025B00E51490 /* CSSignInViewModel.m in Sources */,
 				02BCF94F1CB9326900E51490 /* CSSignUpViewModel.m in Sources */,
+				02BCF9811CBA7BDB00E51490 /* CSLibraryHeaderViewModel.m in Sources */,
 				02BCF9301CB8220700E51490 /* CSRegisterUserParams.m in Sources */,
 				02BCF9491CB9077800E51490 /* UIAlertController+Errors.m in Sources */,
 			);
@@ -962,18 +1075,27 @@
 				026903E01CB7B5CC00A84585 /* CSEnvironment.m in Sources */,
 				021CAFA71CB7EFD1006CE6B9 /* CSUserResponseSerializer.m in Sources */,
 				021CAFA31CB7EA05006CE6B9 /* CSError.m in Sources */,
+				02BCF9581CBA558F00E51490 /* CSGame.m in Sources */,
 				021CAF8B1CB7CDB1006CE6B9 /* CSAccount.m in Sources */,
+				02BCF9781CBA61A000E51490 /* CSTableViewCell.m in Sources */,
 				021CAF871CB7CA1B006CE6B9 /* CSRequests.m in Sources */,
 				BDDB996318C3943B003EBC42 /* CSAppDelegate.m in Sources */,
 				021CAF9B1CB7E8C4006CE6B9 /* CSUser.m in Sources */,
+				02BCF9661CBA5CD600E51490 /* CSLibraryCellViewModel.m in Sources */,
 				021CAF811CB7C894006CE6B9 /* CSApiClient.m in Sources */,
 				BD934CD419C211F600B48551 /* AssetCatalogIdentifiers.m in Sources */,
 				BD934CD519C211F600B48551 /* StoryboardIdentifiers.m in Sources */,
+				02BCF96E1CBA5D4500E51490 /* CSLibraryViewController.m in Sources */,
+				02BCF95E1CBA5C1600E51490 /* CSLibraryViewModel.m in Sources */,
 				BD6951CF18EA4B0800F2F410 /* main.m in Sources */,
+				02BCF9621CBA5C4700E51490 /* CSLibraryTableViewCell.m in Sources */,
 				021CAF971CB7D3C8006CE6B9 /* CSSessionOperationsDispatcher.m in Sources */,
+				02BCF96A1CBA5D1200E51490 /* CSLibraryTableViewHeader.m in Sources */,
+				02BCF97C1CBA761800E51490 /* CSView.m in Sources */,
 				021CAF931CB7D14E006CE6B9 /* CSLoginUserParams.m in Sources */,
 				02BCF93D1CB9025B00E51490 /* CSSignInViewModel.m in Sources */,
 				02BCF94E1CB9326900E51490 /* CSSignUpViewModel.m in Sources */,
+				02BCF9801CBA7BDB00E51490 /* CSLibraryHeaderViewModel.m in Sources */,
 				02BCF92F1CB8220700E51490 /* CSRegisterUserParams.m in Sources */,
 				02BCF9481CB9077800E51490 /* UIAlertController+Errors.m in Sources */,
 			);

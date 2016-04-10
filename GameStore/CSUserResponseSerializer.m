@@ -14,7 +14,8 @@
     
     NSDictionary *json = [super responseObjectForResponse:response data:data error:error];
 
-    CSUser *user = [MTLJSONAdapter modelOfClass:CSUser.class fromJSONDictionary:json[@"user"] error:nil];
+    NSError *validationError;
+    CSUser *user = [MTLJSONAdapter modelOfClass:CSUser.class fromJSONDictionary:json[@"user"] error:&validationError];
     
     NSMutableDictionary *results = [NSMutableDictionary new];
     

@@ -42,7 +42,7 @@
     
     CSLoginUserParams *params = [[CSLoginUserParams alloc] initWithEmail:self.email password:self.password];
     [[CSSessionOperationsDispatcher new] loginUserWithParams:params completion:^(BOOL success, CSUser *user, NSError *error) {
-        if (!success || error) {
+        if (success && !error) {
         
             //Register account
             [[CSAccount account] registerAccountWithAuthenticationToken:user.authToken

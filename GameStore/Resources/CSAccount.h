@@ -7,7 +7,10 @@
 //
 
 #import <AUAccount/AUAccount.h>
+#import "CSUser.h"
 
 @interface CSAccount : AUAccount
+
+@property (nonatomic, strong, readonly) CSUser *user;
 
 @end

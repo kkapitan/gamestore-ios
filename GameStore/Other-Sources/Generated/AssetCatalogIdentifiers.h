@@ -3,3 +3,9 @@
 
 #import <Foundation/Foundation.h>
 
+@interface CSImagesCatalog: NSObject
+
++(UIImage *)gamePlaceholder;
++(UIImage *)userPlaceholder;
+
+@end

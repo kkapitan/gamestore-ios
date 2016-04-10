@@ -100,7 +100,7 @@
                         <outlet property="signInButton" destination="PyS-ch-g8X" id="FJy-h0-nEb"/>
                         <outlet property="signUpButton" destination="3Dh-ia-msX" id="fxf-dt-rkV"/>
                         <outlet property="titleLabelTopLayoutGuideVerticalSpaceConstraint" destination="epY-Ti-pMd" id="ebX-eW-THX"/>
-                        <segue destination="S7v-Fc-mmA" kind="show" identifier="CSAfterSignInSegueID" id="9wm-E1-Wfz"/>
+                        <segue destination="GIC-DE-4Ez" kind="presentation" identifier="CSAfterSignInSegueID" id="9n3-fW-AtI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ifc-37-EbH" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -204,7 +204,7 @@
                         <outlet property="passwordTextField" destination="Eu7-br-4QQ" id="ucW-Ap-CH9"/>
                         <outlet property="signUpButton" destination="gku-ZV-WoE" id="OX3-mr-VLW"/>
                         <outlet property="titleLabelTopLayoutVerticalSpaceConstraint" destination="f1d-ZP-lYm" id="hrI-ek-rw3"/>
-                        <segue destination="S7v-Fc-mmA" kind="show" identifier="CSAfterSignInSegueID" id="82t-Zn-TLg"/>
+                        <segue destination="GIC-DE-4Ez" kind="presentation" identifier="CSAfterSignInSegueID" id="DEx-hw-COy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="63X-UF-cFT" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -214,43 +214,15 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1609" y="1471"/>
+            <point key="canvasLocation" x="1016" y="1537"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="9ap-ek-t3F">
+        <!--Store-->
+        <scene sceneID="XGT-2e-iey">
             <objects>
-                <viewController id="S7v-Fc-mmA" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="r1B-wL-inb"/>
-                        <viewControllerLayoutGuide type="bottom" id="XRB-d2-6w5"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="w4c-5s-tjf">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DHZ-0O-xZt">
-                                <rect key="frame" x="276" y="285" width="48" height="30"/>
-                                <state key="normal" title="Logout"/>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ztb-S7-JYk">
-                                <rect key="frame" x="279" y="202" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="DHZ-0O-xZt" firstAttribute="centerX" secondItem="w4c-5s-tjf" secondAttribute="centerX" id="3lG-t8-V9y"/>
-                            <constraint firstItem="ztb-S7-JYk" firstAttribute="centerX" secondItem="DHZ-0O-xZt" secondAttribute="centerX" id="XJS-mO-jUp"/>
-                            <constraint firstItem="DHZ-0O-xZt" firstAttribute="top" secondItem="ztb-S7-JYk" secondAttribute="bottom" constant="62" id="bk1-NT-XFf"/>
-                            <constraint firstItem="DHZ-0O-xZt" firstAttribute="centerY" secondItem="w4c-5s-tjf" secondAttribute="centerY" id="fZq-uB-RRh"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iek-8R-GKV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="Store" id="GIC-DE-4Ez" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IpL-lI-Yy4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2316" y="724"/>
+            <point key="canvasLocation" x="1482.5" y="1161"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="xHe-68-S6H">
@@ -272,6 +244,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="82t-Zn-TLg"/>
+        <segue reference="DEx-hw-COy"/>
     </inferredMetricsTieBreakers>
 </document>

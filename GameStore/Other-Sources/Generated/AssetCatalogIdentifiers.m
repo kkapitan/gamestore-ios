@@ -3,3 +3,9 @@
 
 #import "AssetCatalogIdentifiers.h"
 
+@implementation CSImagesCatalog
+
++(UIImage *)gamePlaceholder { return [UIImage imageNamed:@"game_placeholder"]; }
++(UIImage *)userPlaceholder { return [UIImage imageNamed:@"user_placeholder"]; }
+
+@end

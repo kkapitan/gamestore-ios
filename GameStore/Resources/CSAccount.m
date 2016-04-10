@@ -9,6 +9,7 @@
 #import "CSAccount.h"
 
 @implementation CSAccount
+@dynamic user;
 
 - (instancetype)init {
     self = [super init];

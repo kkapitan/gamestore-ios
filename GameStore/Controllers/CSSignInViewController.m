@@ -42,6 +42,13 @@ static NSString *const CSSignInAfterLoginSegueID = @"CSAfterSignInSegueID";
     _viewModel = [CSSignInViewModel new];
     
     [self registerForKeyboardNotifications];
+    
+#ifdef DEBUG
+    self.emailTextField.text = @"example@marketplace.com";
+    self.passwordTextField.text = @"12345678";
+    [self textFieldTextHasChangedAction:nil];
+#endif
+    
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
