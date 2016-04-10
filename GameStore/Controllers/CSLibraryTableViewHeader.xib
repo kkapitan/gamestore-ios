@@ -18,8 +18,8 @@
                         <constraint firstAttribute="height" constant="240" id="yGs-s8-Q6l"/>
                     </constraints>
                 </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="John Appleseed" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p6u-1Y-YA8">
-                    <rect key="frame" x="91" y="291" width="192" height="30"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="John Appleseed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" preferredMaxLayoutWidth="354" translatesAutoresizingMaskIntoConstraints="NO" id="p6u-1Y-YA8">
+                    <rect key="frame" x="10" y="291" width="354" height="30"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="25"/>
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
@@ -28,9 +28,11 @@
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="p6u-1Y-YA8" secondAttribute="bottom" constant="35" id="3wF-AP-wy5"/>
+                <constraint firstItem="p6u-1Y-YA8" firstAttribute="leading" secondItem="HwN-fw-jzD" secondAttribute="leading" constant="10" id="L5C-rg-RI4"/>
                 <constraint firstItem="p6u-1Y-YA8" firstAttribute="centerX" secondItem="aMi-FB-SFr" secondAttribute="centerX" id="M3n-Kl-J2c"/>
                 <constraint firstItem="aMi-FB-SFr" firstAttribute="centerX" secondItem="HwN-fw-jzD" secondAttribute="centerX" id="M8B-Bh-KDF"/>
                 <constraint firstItem="aMi-FB-SFr" firstAttribute="top" secondItem="HwN-fw-jzD" secondAttribute="top" constant="24" id="OFz-Z6-qzV"/>
+                <constraint firstAttribute="trailing" secondItem="p6u-1Y-YA8" secondAttribute="trailing" constant="10" id="Occ-mh-Ik6"/>
                 <constraint firstItem="p6u-1Y-YA8" firstAttribute="top" secondItem="aMi-FB-SFr" secondAttribute="bottom" constant="27" id="pG7-n7-vd3"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>

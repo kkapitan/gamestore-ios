@@ -20,6 +20,9 @@
 
 - (void)populateWithViewModel:(CSLibraryHeaderViewModel *)viewModel {
     self.nameLabel.text = viewModel.userFullName;
+    
+    [self setNeedsLayout];
+    [self layoutIfNeeded];
 }
 
 @end

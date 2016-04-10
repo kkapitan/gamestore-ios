@@ -6,6 +6,9 @@
 @implementation CSImagesCatalog
 
 +(UIImage *)gamePlaceholder { return [UIImage imageNamed:@"game_placeholder"]; }
++(UIImage *)icTabbarLibrary { return [UIImage imageNamed:@"ic_tabbar_library"]; }
++(UIImage *)icTabbarSettings { return [UIImage imageNamed:@"ic_tabbar_settings"]; }
++(UIImage *)icTabbarStore { return [UIImage imageNamed:@"ic_tabbar_store"]; }
 +(UIImage *)userPlaceholder { return [UIImage imageNamed:@"user_placeholder"]; }
 
 @end

@@ -52,6 +52,7 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" id="V7p-nP-qJl">
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="cHl-0O-TE9" kind="relationship" relationship="viewControllers" id="Dt9-Tz-dBp"/>
@@ -67,7 +68,7 @@
         <scene sceneID="iUq-nb-bRk">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cHl-0O-TE9" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Library" id="h7T-vU-3O9"/>
+                    <tabBarItem key="tabBarItem" title="Library" image="ic_tabbar_library" id="h7T-vU-3O9"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="JZI-6E-bHE">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -86,7 +87,7 @@
         <scene sceneID="iux-NP-TJ2">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="X5N-8M-LI9" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Store" id="BEp-9g-STc"/>
+                    <tabBarItem key="tabBarItem" title="Store" image="ic_tabbar_store" id="BEp-9g-STc"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Sxm-bg-zQy">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -124,7 +125,7 @@
         <scene sceneID="c6D-II-Ets">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gYF-Jc-gSs" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Settings" id="rv7-s7-3xN"/>
+                    <tabBarItem key="tabBarItem" title="Settings" image="ic_tabbar_settings" id="rv7-s7-3xN"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="npd-DJ-o7O">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -140,4 +141,9 @@
             <point key="canvasLocation" x="2098" y="1904"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ic_tabbar_library" width="30" height="29"/>
+        <image name="ic_tabbar_settings" width="27" height="27"/>
+        <image name="ic_tabbar_store" width="29" height="29"/>
+    </resources>
 </document>
