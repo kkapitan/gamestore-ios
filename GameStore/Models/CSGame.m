@@ -15,7 +15,8 @@
              @"uid" : @"id",
              @"title" : @"title",
              @"gameDescription" : @"description",
-             @"price" : @"price"
+             @"price" : @"price",
+             @"reviews" : @"reviews"
              };
 }
 
@@ -25,6 +26,10 @@
     } reverseBlock:^NSString*(NSNumber *value, BOOL *success, NSError *__autoreleasing *error) {
         return value.stringValue;
     }];
+}
+
++ (NSValueTransformer *)reviewsJSONTransformer {
+    return [MTLJSONAdapter arrayTransformerWithModelClass:CSReview.class];
 }
 
 @end

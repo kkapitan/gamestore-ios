@@ -38,6 +38,28 @@
 		026903F51CB7C38500A84585 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDDB996D18C3943B003EBC42 /* Images.xcassets */; };
 		026903F61CB7C38500A84585 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BD304C8218E77F7E0034105E /* Settings.bundle */; };
 		026903F71CB7C38500A84585 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF68AF01B713C3400153C8D /* Main.storyboard */; };
+		02A475471CBC21B4007B973A /* CSReview.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A475461CBC21B4007B973A /* CSReview.m */; };
+		02A475481CBC21B4007B973A /* CSReview.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A475461CBC21B4007B973A /* CSReview.m */; };
+		02A4754B1CBC27BA007B973A /* CSShowUserParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A4754A1CBC27BA007B973A /* CSShowUserParams.m */; };
+		02A4754C1CBC27BA007B973A /* CSShowUserParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A4754A1CBC27BA007B973A /* CSShowUserParams.m */; };
+		02A4754F1CBC27D7007B973A /* CSUpdateUserParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A4754E1CBC27D7007B973A /* CSUpdateUserParams.m */; };
+		02A475501CBC27D7007B973A /* CSUpdateUserParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A4754E1CBC27D7007B973A /* CSUpdateUserParams.m */; };
+		02A475531CBC281F007B973A /* CSShowGamesParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A475521CBC281F007B973A /* CSShowGamesParams.m */; };
+		02A475541CBC281F007B973A /* CSShowGamesParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A475521CBC281F007B973A /* CSShowGamesParams.m */; };
+		02A475571CBC2826007B973A /* CSShowGameParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A475561CBC2826007B973A /* CSShowGameParams.m */; };
+		02A475581CBC2826007B973A /* CSShowGameParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A475561CBC2826007B973A /* CSShowGameParams.m */; };
+		02A4755B1CBC2832007B973A /* CSUpdateGameLibraryParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A4755A1CBC2832007B973A /* CSUpdateGameLibraryParams.m */; };
+		02A4755C1CBC2832007B973A /* CSUpdateGameLibraryParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A4755A1CBC2832007B973A /* CSUpdateGameLibraryParams.m */; };
+		02A4755F1CBC283D007B973A /* CSPostReviewParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A4755E1CBC283D007B973A /* CSPostReviewParams.m */; };
+		02A475601CBC283D007B973A /* CSPostReviewParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A4755E1CBC283D007B973A /* CSPostReviewParams.m */; };
+		02A475631CBC2EA2007B973A /* CSUploadUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A475621CBC2EA2007B973A /* CSUploadUser.m */; };
+		02A475641CBC2EA2007B973A /* CSUploadUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A475621CBC2EA2007B973A /* CSUploadUser.m */; };
+		02A475671CBC32FC007B973A /* CSSearchQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A475661CBC32FC007B973A /* CSSearchQuery.m */; };
+		02A475681CBC32FC007B973A /* CSSearchQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A475661CBC32FC007B973A /* CSSearchQuery.m */; };
+		02A4756B1CBC330D007B973A /* CSPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A4756A1CBC330D007B973A /* CSPage.m */; };
+		02A4756C1CBC330D007B973A /* CSPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A4756A1CBC330D007B973A /* CSPage.m */; };
+		02A4756F1CBC3513007B973A /* CSGameCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A4756E1CBC3513007B973A /* CSGameCategory.m */; };
+		02A475701CBC3513007B973A /* CSGameCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A4756E1CBC3513007B973A /* CSGameCategory.m */; };
 		02BCF92F1CB8220700E51490 /* CSRegisterUserParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF92E1CB8220700E51490 /* CSRegisterUserParams.m */; };
 		02BCF9301CB8220700E51490 /* CSRegisterUserParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF92E1CB8220700E51490 /* CSRegisterUserParams.m */; };
 		02BCF9341CB900BB00E51490 /* CSSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF9331CB900BB00E51490 /* CSSignInViewController.m */; };
@@ -123,6 +145,28 @@
 		026903E21CB7B83100A84585 /* Configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Configuration.plist; sourceTree = "<group>"; };
 		026904061CB7C38500A84585 /* GameStore-Staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GameStore-Staging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		026904071CB7C38500A84585 /* GameStore copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GameStore copy-Info.plist"; path = "/Users/kkapitan/Projekty/iOS/gamestore-ios/GameStore/GameStore copy-Info.plist"; sourceTree = "<absolute>"; };
+		02A475451CBC21B4007B973A /* CSReview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSReview.h; sourceTree = "<group>"; };
+		02A475461CBC21B4007B973A /* CSReview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSReview.m; sourceTree = "<group>"; };
+		02A475491CBC27BA007B973A /* CSShowUserParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSShowUserParams.h; sourceTree = "<group>"; };
+		02A4754A1CBC27BA007B973A /* CSShowUserParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSShowUserParams.m; sourceTree = "<group>"; };
+		02A4754D1CBC27D7007B973A /* CSUpdateUserParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSUpdateUserParams.h; sourceTree = "<group>"; };
+		02A4754E1CBC27D7007B973A /* CSUpdateUserParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSUpdateUserParams.m; sourceTree = "<group>"; };
+		02A475511CBC281F007B973A /* CSShowGamesParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSShowGamesParams.h; sourceTree = "<group>"; };
+		02A475521CBC281F007B973A /* CSShowGamesParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSShowGamesParams.m; sourceTree = "<group>"; };
+		02A475551CBC2826007B973A /* CSShowGameParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSShowGameParams.h; sourceTree = "<group>"; };
+		02A475561CBC2826007B973A /* CSShowGameParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSShowGameParams.m; sourceTree = "<group>"; };
+		02A475591CBC2832007B973A /* CSUpdateGameLibraryParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSUpdateGameLibraryParams.h; sourceTree = "<group>"; };
+		02A4755A1CBC2832007B973A /* CSUpdateGameLibraryParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSUpdateGameLibraryParams.m; sourceTree = "<group>"; };
+		02A4755D1CBC283D007B973A /* CSPostReviewParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSPostReviewParams.h; sourceTree = "<group>"; };
+		02A4755E1CBC283D007B973A /* CSPostReviewParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSPostReviewParams.m; sourceTree = "<group>"; };
+		02A475611CBC2EA2007B973A /* CSUploadUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSUploadUser.h; sourceTree = "<group>"; };
+		02A475621CBC2EA2007B973A /* CSUploadUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSUploadUser.m; sourceTree = "<group>"; };
+		02A475651CBC32FC007B973A /* CSSearchQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSSearchQuery.h; sourceTree = "<group>"; };
+		02A475661CBC32FC007B973A /* CSSearchQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSSearchQuery.m; sourceTree = "<group>"; };
+		02A475691CBC330D007B973A /* CSPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSPage.h; sourceTree = "<group>"; };
+		02A4756A1CBC330D007B973A /* CSPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSPage.m; sourceTree = "<group>"; };
+		02A4756D1CBC3513007B973A /* CSGameCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSGameCategory.h; sourceTree = "<group>"; };
+		02A4756E1CBC3513007B973A /* CSGameCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSGameCategory.m; sourceTree = "<group>"; };
 		02BCF92D1CB8220700E51490 /* CSRegisterUserParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSRegisterUserParams.h; sourceTree = "<group>"; };
 		02BCF92E1CB8220700E51490 /* CSRegisterUserParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSRegisterUserParams.m; sourceTree = "<group>"; };
 		02BCF9321CB900BB00E51490 /* CSSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSSignInViewController.h; sourceTree = "<group>"; };
@@ -254,6 +298,18 @@
 				021CAF921CB7D14E006CE6B9 /* CSLoginUserParams.m */,
 				02BCF92D1CB8220700E51490 /* CSRegisterUserParams.h */,
 				02BCF92E1CB8220700E51490 /* CSRegisterUserParams.m */,
+				02A475491CBC27BA007B973A /* CSShowUserParams.h */,
+				02A4754A1CBC27BA007B973A /* CSShowUserParams.m */,
+				02A475511CBC281F007B973A /* CSShowGamesParams.h */,
+				02A475521CBC281F007B973A /* CSShowGamesParams.m */,
+				02A475551CBC2826007B973A /* CSShowGameParams.h */,
+				02A475561CBC2826007B973A /* CSShowGameParams.m */,
+				02A475591CBC2832007B973A /* CSUpdateGameLibraryParams.h */,
+				02A4755A1CBC2832007B973A /* CSUpdateGameLibraryParams.m */,
+				02A4755D1CBC283D007B973A /* CSPostReviewParams.h */,
+				02A4755E1CBC283D007B973A /* CSPostReviewParams.m */,
+				02A4754D1CBC27D7007B973A /* CSUpdateUserParams.h */,
+				02A4754E1CBC27D7007B973A /* CSUpdateUserParams.m */,
 			);
 			name = Parameters;
 			sourceTree = "<group>";
@@ -461,6 +517,16 @@
 				021CAFA21CB7EA05006CE6B9 /* CSError.m */,
 				02BCF9561CBA558F00E51490 /* CSGame.h */,
 				02BCF9571CBA558F00E51490 /* CSGame.m */,
+				02A475451CBC21B4007B973A /* CSReview.h */,
+				02A475461CBC21B4007B973A /* CSReview.m */,
+				02A475611CBC2EA2007B973A /* CSUploadUser.h */,
+				02A475621CBC2EA2007B973A /* CSUploadUser.m */,
+				02A475651CBC32FC007B973A /* CSSearchQuery.h */,
+				02A475661CBC32FC007B973A /* CSSearchQuery.m */,
+				02A4756D1CBC3513007B973A /* CSGameCategory.h */,
+				02A4756E1CBC3513007B973A /* CSGameCategory.m */,
+				02A475691CBC330D007B973A /* CSPage.h */,
+				02A4756A1CBC330D007B973A /* CSPage.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -1038,15 +1104,23 @@
 				021CAFA41CB7EA05006CE6B9 /* CSError.m in Sources */,
 				021CAF8C1CB7CDB1006CE6B9 /* CSAccount.m in Sources */,
 				021CAF881CB7CA1B006CE6B9 /* CSRequests.m in Sources */,
+				02A475701CBC3513007B973A /* CSGameCategory.m in Sources */,
+				02A475581CBC2826007B973A /* CSShowGameParams.m in Sources */,
+				02A4754C1CBC27BA007B973A /* CSShowUserParams.m in Sources */,
 				02BCF9591CBA558F00E51490 /* CSGame.m in Sources */,
 				026903EA1CB7C38500A84585 /* CSAppDelegate.m in Sources */,
 				02BCF9791CBA61A000E51490 /* CSTableViewCell.m in Sources */,
+				02A475681CBC32FC007B973A /* CSSearchQuery.m in Sources */,
 				021CAF9C1CB7E8C4006CE6B9 /* CSUser.m in Sources */,
+				02A475641CBC2EA2007B973A /* CSUploadUser.m in Sources */,
 				021CAF821CB7C894006CE6B9 /* CSApiClient.m in Sources */,
+				02A475481CBC21B4007B973A /* CSReview.m in Sources */,
 				026903EB1CB7C38500A84585 /* AssetCatalogIdentifiers.m in Sources */,
 				02BCF9671CBA5CD600E51490 /* CSLibraryCellViewModel.m in Sources */,
+				02A475601CBC283D007B973A /* CSPostReviewParams.m in Sources */,
 				026903EC1CB7C38500A84585 /* StoryboardIdentifiers.m in Sources */,
 				026903ED1CB7C38500A84585 /* main.m in Sources */,
+				02A4756C1CBC330D007B973A /* CSPage.m in Sources */,
 				02BCF9391CB900DB00E51490 /* CSSignInViewController.m in Sources */,
 				02BCF96F1CBA5D4500E51490 /* CSLibraryViewController.m in Sources */,
 				02BCF95F1CBA5C1600E51490 /* CSLibraryViewModel.m in Sources */,
@@ -1055,11 +1129,14 @@
 				021CAF941CB7D14E006CE6B9 /* CSLoginUserParams.m in Sources */,
 				02BCF96B1CBA5D1200E51490 /* CSLibraryTableViewHeader.m in Sources */,
 				02BCF97D1CBA761800E51490 /* CSView.m in Sources */,
+				02A475541CBC281F007B973A /* CSShowGamesParams.m in Sources */,
 				02BCF9381CB900D500E51490 /* CSSignUpViewController.m in Sources */,
 				02BCF93E1CB9025B00E51490 /* CSSignInViewModel.m in Sources */,
 				02BCF94F1CB9326900E51490 /* CSSignUpViewModel.m in Sources */,
 				02BCF9811CBA7BDB00E51490 /* CSLibraryHeaderViewModel.m in Sources */,
 				02BCF9301CB8220700E51490 /* CSRegisterUserParams.m in Sources */,
+				02A475501CBC27D7007B973A /* CSUpdateUserParams.m in Sources */,
+				02A4755C1CBC2832007B973A /* CSUpdateGameLibraryParams.m in Sources */,
 				02BCF9491CB9077800E51490 /* UIAlertController+Errors.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1075,15 +1152,23 @@
 				026903E01CB7B5CC00A84585 /* CSEnvironment.m in Sources */,
 				021CAFA71CB7EFD1006CE6B9 /* CSUserResponseSerializer.m in Sources */,
 				021CAFA31CB7EA05006CE6B9 /* CSError.m in Sources */,
+				02A4756F1CBC3513007B973A /* CSGameCategory.m in Sources */,
+				02A475571CBC2826007B973A /* CSShowGameParams.m in Sources */,
+				02A4754B1CBC27BA007B973A /* CSShowUserParams.m in Sources */,
 				02BCF9581CBA558F00E51490 /* CSGame.m in Sources */,
 				021CAF8B1CB7CDB1006CE6B9 /* CSAccount.m in Sources */,
 				02BCF9781CBA61A000E51490 /* CSTableViewCell.m in Sources */,
+				02A475671CBC32FC007B973A /* CSSearchQuery.m in Sources */,
 				021CAF871CB7CA1B006CE6B9 /* CSRequests.m in Sources */,
+				02A475631CBC2EA2007B973A /* CSUploadUser.m in Sources */,
 				BDDB996318C3943B003EBC42 /* CSAppDelegate.m in Sources */,
+				02A475471CBC21B4007B973A /* CSReview.m in Sources */,
 				021CAF9B1CB7E8C4006CE6B9 /* CSUser.m in Sources */,
 				02BCF9661CBA5CD600E51490 /* CSLibraryCellViewModel.m in Sources */,
+				02A4755F1CBC283D007B973A /* CSPostReviewParams.m in Sources */,
 				021CAF811CB7C894006CE6B9 /* CSApiClient.m in Sources */,
 				BD934CD419C211F600B48551 /* AssetCatalogIdentifiers.m in Sources */,
+				02A4756B1CBC330D007B973A /* CSPage.m in Sources */,
 				BD934CD519C211F600B48551 /* StoryboardIdentifiers.m in Sources */,
 				02BCF96E1CBA5D4500E51490 /* CSLibraryViewController.m in Sources */,
 				02BCF95E1CBA5C1600E51490 /* CSLibraryViewModel.m in Sources */,
@@ -1092,11 +1177,14 @@
 				021CAF971CB7D3C8006CE6B9 /* CSSessionOperationsDispatcher.m in Sources */,
 				02BCF96A1CBA5D1200E51490 /* CSLibraryTableViewHeader.m in Sources */,
 				02BCF97C1CBA761800E51490 /* CSView.m in Sources */,
+				02A475531CBC281F007B973A /* CSShowGamesParams.m in Sources */,
 				021CAF931CB7D14E006CE6B9 /* CSLoginUserParams.m in Sources */,
 				02BCF93D1CB9025B00E51490 /* CSSignInViewModel.m in Sources */,
 				02BCF94E1CB9326900E51490 /* CSSignUpViewModel.m in Sources */,
 				02BCF9801CBA7BDB00E51490 /* CSLibraryHeaderViewModel.m in Sources */,
 				02BCF92F1CB8220700E51490 /* CSRegisterUserParams.m in Sources */,
+				02A4754F1CBC27D7007B973A /* CSUpdateUserParams.m in Sources */,
+				02A4755B1CBC2832007B973A /* CSUpdateGameLibraryParams.m in Sources */,
 				02BCF9481CB9077800E51490 /* UIAlertController+Errors.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

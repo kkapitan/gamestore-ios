@@ -6,6 +6,8 @@
 @interface CSImagesCatalog: NSObject
 
 +(UIImage *)gamePlaceholder;
++(UIImage *)icSettingsEdit;
++(UIImage *)icSettingsFaq;
 +(UIImage *)icTabbarLibrary;
 +(UIImage *)icTabbarSettings;
 +(UIImage *)icTabbarStore;

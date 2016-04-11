@@ -15,8 +15,14 @@
 
 @property (nonatomic, assign, readonly) NSInteger uid;
 
+@property (nonatomic, strong, readonly) NSString *firstName;
+@property (nonatomic, strong, readonly) NSString *lastName;
+@property (nonatomic, strong, readonly) NSString *nickname;
+
 @property (nonatomic, strong, readonly) NSString *email;
 @property (nonatomic, strong, readonly) NSString *authToken;
+
+@property (nonatomic, strong, readonly) NSURL *avatarURL;
 
 @property (nonatomic, strong, readonly) NSArray <CSGame *> *games;
 

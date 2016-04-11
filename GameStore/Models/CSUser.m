@@ -23,6 +23,10 @@
     return @{
              @"uid" : @"id",
              @"email" : @"email",
+             @"avatarURL" : @"avatar_url",
+             @"firstName" : @"name",
+             @"nickname" : @"nickname",
+             @"lastName" : @"last_name",
              @"authToken" : @"auth_token",
              @"games" : @"games"
             };

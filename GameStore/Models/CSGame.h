@@ -8,6 +8,9 @@
 
 #import "Mantle.h"
 
+//Model
+#import "CSReview.h"
+
 @interface CSGame : MTLModel <MTLJSONSerializing>
 
 @property (nonatomic, readonly, assign) NSInteger uid;
@@ -16,5 +19,7 @@
 @property (nonatomic, readonly, strong) NSString *gameDescription;
 
 @property (nonatomic, readonly, assign) CGFloat price;
+
+@property (nonatomic, readonly, strong) NSArray<CSReview *> *reviews;
 
 @end
