@@ -60,6 +60,10 @@
 		02A4756C1CBC330D007B973A /* CSPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A4756A1CBC330D007B973A /* CSPage.m */; };
 		02A4756F1CBC3513007B973A /* CSGameCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A4756E1CBC3513007B973A /* CSGameCategory.m */; };
 		02A475701CBC3513007B973A /* CSGameCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A4756E1CBC3513007B973A /* CSGameCategory.m */; };
+		02A475731CBC5AAC007B973A /* CSGameResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A475721CBC5AAC007B973A /* CSGameResponseSerializer.m */; };
+		02A475741CBC5AAC007B973A /* CSGameResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A475721CBC5AAC007B973A /* CSGameResponseSerializer.m */; };
+		02A475771CBC5AF4007B973A /* CSGamesResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A475761CBC5AF4007B973A /* CSGamesResponseSerializer.m */; };
+		02A475781CBC5AF4007B973A /* CSGamesResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A475761CBC5AF4007B973A /* CSGamesResponseSerializer.m */; };
 		02BCF92F1CB8220700E51490 /* CSRegisterUserParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF92E1CB8220700E51490 /* CSRegisterUserParams.m */; };
 		02BCF9301CB8220700E51490 /* CSRegisterUserParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF92E1CB8220700E51490 /* CSRegisterUserParams.m */; };
 		02BCF9341CB900BB00E51490 /* CSSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF9331CB900BB00E51490 /* CSSignInViewController.m */; };
@@ -167,6 +171,10 @@
 		02A4756A1CBC330D007B973A /* CSPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSPage.m; sourceTree = "<group>"; };
 		02A4756D1CBC3513007B973A /* CSGameCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSGameCategory.h; sourceTree = "<group>"; };
 		02A4756E1CBC3513007B973A /* CSGameCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSGameCategory.m; sourceTree = "<group>"; };
+		02A475711CBC5AAC007B973A /* CSGameResponseSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSGameResponseSerializer.h; sourceTree = "<group>"; };
+		02A475721CBC5AAC007B973A /* CSGameResponseSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSGameResponseSerializer.m; sourceTree = "<group>"; };
+		02A475751CBC5AF4007B973A /* CSGamesResponseSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSGamesResponseSerializer.h; sourceTree = "<group>"; };
+		02A475761CBC5AF4007B973A /* CSGamesResponseSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSGamesResponseSerializer.m; sourceTree = "<group>"; };
 		02BCF92D1CB8220700E51490 /* CSRegisterUserParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSRegisterUserParams.h; sourceTree = "<group>"; };
 		02BCF92E1CB8220700E51490 /* CSRegisterUserParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSRegisterUserParams.m; sourceTree = "<group>"; };
 		02BCF9321CB900BB00E51490 /* CSSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSSignInViewController.h; sourceTree = "<group>"; };
@@ -321,6 +329,10 @@
 				021CAF9E1CB7E980006CE6B9 /* CSJSONResponseSerializer.m */,
 				021CAFA51CB7EFD1006CE6B9 /* CSUserResponseSerializer.h */,
 				021CAFA61CB7EFD1006CE6B9 /* CSUserResponseSerializer.m */,
+				02A475711CBC5AAC007B973A /* CSGameResponseSerializer.h */,
+				02A475721CBC5AAC007B973A /* CSGameResponseSerializer.m */,
+				02A475751CBC5AF4007B973A /* CSGamesResponseSerializer.h */,
+				02A475761CBC5AF4007B973A /* CSGamesResponseSerializer.m */,
 			);
 			name = Serializers;
 			sourceTree = "<group>";
@@ -1128,6 +1140,7 @@
 				02BCF9631CBA5C4700E51490 /* CSLibraryTableViewCell.m in Sources */,
 				021CAF941CB7D14E006CE6B9 /* CSLoginUserParams.m in Sources */,
 				02BCF96B1CBA5D1200E51490 /* CSLibraryTableViewHeader.m in Sources */,
+				02A475781CBC5AF4007B973A /* CSGamesResponseSerializer.m in Sources */,
 				02BCF97D1CBA761800E51490 /* CSView.m in Sources */,
 				02A475541CBC281F007B973A /* CSShowGamesParams.m in Sources */,
 				02BCF9381CB900D500E51490 /* CSSignUpViewController.m in Sources */,
@@ -1135,6 +1148,7 @@
 				02BCF94F1CB9326900E51490 /* CSSignUpViewModel.m in Sources */,
 				02BCF9811CBA7BDB00E51490 /* CSLibraryHeaderViewModel.m in Sources */,
 				02BCF9301CB8220700E51490 /* CSRegisterUserParams.m in Sources */,
+				02A475741CBC5AAC007B973A /* CSGameResponseSerializer.m in Sources */,
 				02A475501CBC27D7007B973A /* CSUpdateUserParams.m in Sources */,
 				02A4755C1CBC2832007B973A /* CSUpdateGameLibraryParams.m in Sources */,
 				02BCF9491CB9077800E51490 /* UIAlertController+Errors.m in Sources */,
@@ -1176,6 +1190,7 @@
 				02BCF9621CBA5C4700E51490 /* CSLibraryTableViewCell.m in Sources */,
 				021CAF971CB7D3C8006CE6B9 /* CSSessionOperationsDispatcher.m in Sources */,
 				02BCF96A1CBA5D1200E51490 /* CSLibraryTableViewHeader.m in Sources */,
+				02A475771CBC5AF4007B973A /* CSGamesResponseSerializer.m in Sources */,
 				02BCF97C1CBA761800E51490 /* CSView.m in Sources */,
 				02A475531CBC281F007B973A /* CSShowGamesParams.m in Sources */,
 				021CAF931CB7D14E006CE6B9 /* CSLoginUserParams.m in Sources */,
@@ -1183,6 +1198,7 @@
 				02BCF94E1CB9326900E51490 /* CSSignUpViewModel.m in Sources */,
 				02BCF9801CBA7BDB00E51490 /* CSLibraryHeaderViewModel.m in Sources */,
 				02BCF92F1CB8220700E51490 /* CSRegisterUserParams.m in Sources */,
+				02A475731CBC5AAC007B973A /* CSGameResponseSerializer.m in Sources */,
 				02A4754F1CBC27D7007B973A /* CSUpdateUserParams.m in Sources */,
 				02A4755B1CBC2832007B973A /* CSUpdateGameLibraryParams.m in Sources */,
 				02BCF9481CB9077800E51490 /* UIAlertController+Errors.m in Sources */,

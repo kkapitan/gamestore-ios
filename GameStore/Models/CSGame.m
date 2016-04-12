@@ -16,8 +16,9 @@
              @"title" : @"title",
              @"gameDescription" : @"description",
              @"price" : @"price",
+             @"category" : @"category_cd",
              @"reviews" : @"reviews"
-             };
+            };
 }
 
 + (NSValueTransformer *)priceJSONTransformer {
@@ -30,6 +31,14 @@
 
 + (NSValueTransformer *)reviewsJSONTransformer {
     return [MTLJSONAdapter arrayTransformerWithModelClass:CSReview.class];
+}
+
++ (NSValueTransformer *)categoryJSONTransformer {
+    return [MTLValueTransformer transformerUsingForwardBlock:^CSGameCategory*(NSString* value, BOOL *success, NSError *__autoreleasing *error) {
+        return [[CSGameCategory alloc] initWithTitle:value];
+    } reverseBlock:^NSString*(CSGameCategory *value, BOOL *success, NSError *__autoreleasing *error) {
+        return value.title;
+    }];
 }
 
 @end
