@@ -102,6 +102,14 @@
 		02BCF97D1CBA761800E51490 /* CSView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF97B1CBA761800E51490 /* CSView.m */; };
 		02BCF9801CBA7BDB00E51490 /* CSLibraryHeaderViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF97F1CBA7BDB00E51490 /* CSLibraryHeaderViewModel.m */; };
 		02BCF9811CBA7BDB00E51490 /* CSLibraryHeaderViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF97F1CBA7BDB00E51490 /* CSLibraryHeaderViewModel.m */; };
+		02BE99841CC3E72500C3C195 /* CSGameOperationsDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BE99831CC3E72500C3C195 /* CSGameOperationsDispatcher.m */; };
+		02BE99851CC3E72500C3C195 /* CSGameOperationsDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BE99831CC3E72500C3C195 /* CSGameOperationsDispatcher.m */; };
+		02BE99881CC3EC1400C3C195 /* CSReviewOperationsDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BE99871CC3EC1400C3C195 /* CSReviewOperationsDispatcher.m */; };
+		02BE99891CC3EC1400C3C195 /* CSReviewOperationsDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BE99871CC3EC1400C3C195 /* CSReviewOperationsDispatcher.m */; };
+		02BE998C1CC3ED9A00C3C195 /* CSLibraryOperationsDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BE998B1CC3ED9A00C3C195 /* CSLibraryOperationsDispatcher.m */; };
+		02BE998D1CC3ED9A00C3C195 /* CSLibraryOperationsDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BE998B1CC3ED9A00C3C195 /* CSLibraryOperationsDispatcher.m */; };
+		02D6367B1CBD244600793330 /* CSUserOperationsDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D6367A1CBD244600793330 /* CSUserOperationsDispatcher.m */; };
+		02D6367C1CBD244600793330 /* CSUserOperationsDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D6367A1CBD244600793330 /* CSUserOperationsDispatcher.m */; };
 		036A61EAF6146EA59BD29634 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A06B515E067379B8477A8245 /* libPods.a */; };
 		074C8AD7A4D403DECEE7F926 /* libPods-Specs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A5F5E57179B0D085AF4FF2 /* libPods-Specs.a */; };
 		BD304C8318E77F7E0034105E /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BD304C8218E77F7E0034105E /* Settings.bundle */; };
@@ -210,6 +218,14 @@
 		02BCF97B1CBA761800E51490 /* CSView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSView.m; sourceTree = "<group>"; };
 		02BCF97E1CBA7BDB00E51490 /* CSLibraryHeaderViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSLibraryHeaderViewModel.h; sourceTree = "<group>"; };
 		02BCF97F1CBA7BDB00E51490 /* CSLibraryHeaderViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSLibraryHeaderViewModel.m; sourceTree = "<group>"; };
+		02BE99821CC3E72500C3C195 /* CSGameOperationsDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSGameOperationsDispatcher.h; sourceTree = "<group>"; };
+		02BE99831CC3E72500C3C195 /* CSGameOperationsDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSGameOperationsDispatcher.m; sourceTree = "<group>"; };
+		02BE99861CC3EC1400C3C195 /* CSReviewOperationsDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSReviewOperationsDispatcher.h; sourceTree = "<group>"; };
+		02BE99871CC3EC1400C3C195 /* CSReviewOperationsDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSReviewOperationsDispatcher.m; sourceTree = "<group>"; };
+		02BE998A1CC3ED9A00C3C195 /* CSLibraryOperationsDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSLibraryOperationsDispatcher.h; sourceTree = "<group>"; };
+		02BE998B1CC3ED9A00C3C195 /* CSLibraryOperationsDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSLibraryOperationsDispatcher.m; sourceTree = "<group>"; };
+		02D636791CBD244600793330 /* CSUserOperationsDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSUserOperationsDispatcher.h; sourceTree = "<group>"; };
+		02D6367A1CBD244600793330 /* CSUserOperationsDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSUserOperationsDispatcher.m; sourceTree = "<group>"; };
 		12CC9EC171F3BB2114E66841 /* Pods-Specs.test_staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs.test_staging.xcconfig"; path = "Pods/Target Support Files/Pods-Specs/Pods-Specs.test_staging.xcconfig"; sourceTree = "<group>"; };
 		2CB569C4CA54BBB2A8A3438F /* Pods.adhoc_production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.adhoc_production.xcconfig; path = "Pods/Target Support Files/Pods/Pods.adhoc_production.xcconfig"; sourceTree = "<group>"; };
 		326C1F0145B5BE66CBCC67F1 /* Pods-Specs.test_production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs.test_production.xcconfig"; path = "Pods/Target Support Files/Pods-Specs/Pods-Specs.test_production.xcconfig"; sourceTree = "<group>"; };
@@ -394,6 +410,14 @@
 			children = (
 				021CAF951CB7D3C8006CE6B9 /* CSSessionOperationsDispatcher.h */,
 				021CAF961CB7D3C8006CE6B9 /* CSSessionOperationsDispatcher.m */,
+				02D636791CBD244600793330 /* CSUserOperationsDispatcher.h */,
+				02D6367A1CBD244600793330 /* CSUserOperationsDispatcher.m */,
+				02BE99821CC3E72500C3C195 /* CSGameOperationsDispatcher.h */,
+				02BE99831CC3E72500C3C195 /* CSGameOperationsDispatcher.m */,
+				02BE99861CC3EC1400C3C195 /* CSReviewOperationsDispatcher.h */,
+				02BE998A1CC3ED9A00C3C195 /* CSLibraryOperationsDispatcher.h */,
+				02BE998B1CC3ED9A00C3C195 /* CSLibraryOperationsDispatcher.m */,
+				02BE99871CC3EC1400C3C195 /* CSReviewOperationsDispatcher.m */,
 			);
 			name = Operations;
 			sourceTree = "<group>";
@@ -1116,6 +1140,7 @@
 				021CAFA41CB7EA05006CE6B9 /* CSError.m in Sources */,
 				021CAF8C1CB7CDB1006CE6B9 /* CSAccount.m in Sources */,
 				021CAF881CB7CA1B006CE6B9 /* CSRequests.m in Sources */,
+				02D6367C1CBD244600793330 /* CSUserOperationsDispatcher.m in Sources */,
 				02A475701CBC3513007B973A /* CSGameCategory.m in Sources */,
 				02A475581CBC2826007B973A /* CSShowGameParams.m in Sources */,
 				02A4754C1CBC27BA007B973A /* CSShowUserParams.m in Sources */,
@@ -1134,13 +1159,16 @@
 				026903ED1CB7C38500A84585 /* main.m in Sources */,
 				02A4756C1CBC330D007B973A /* CSPage.m in Sources */,
 				02BCF9391CB900DB00E51490 /* CSSignInViewController.m in Sources */,
+				02BE998D1CC3ED9A00C3C195 /* CSLibraryOperationsDispatcher.m in Sources */,
 				02BCF96F1CBA5D4500E51490 /* CSLibraryViewController.m in Sources */,
 				02BCF95F1CBA5C1600E51490 /* CSLibraryViewModel.m in Sources */,
 				021CAF981CB7D3C8006CE6B9 /* CSSessionOperationsDispatcher.m in Sources */,
 				02BCF9631CBA5C4700E51490 /* CSLibraryTableViewCell.m in Sources */,
+				02BE99891CC3EC1400C3C195 /* CSReviewOperationsDispatcher.m in Sources */,
 				021CAF941CB7D14E006CE6B9 /* CSLoginUserParams.m in Sources */,
 				02BCF96B1CBA5D1200E51490 /* CSLibraryTableViewHeader.m in Sources */,
 				02A475781CBC5AF4007B973A /* CSGamesResponseSerializer.m in Sources */,
+				02BE99851CC3E72500C3C195 /* CSGameOperationsDispatcher.m in Sources */,
 				02BCF97D1CBA761800E51490 /* CSView.m in Sources */,
 				02A475541CBC281F007B973A /* CSShowGamesParams.m in Sources */,
 				02BCF9381CB900D500E51490 /* CSSignUpViewController.m in Sources */,
@@ -1166,6 +1194,7 @@
 				026903E01CB7B5CC00A84585 /* CSEnvironment.m in Sources */,
 				021CAFA71CB7EFD1006CE6B9 /* CSUserResponseSerializer.m in Sources */,
 				021CAFA31CB7EA05006CE6B9 /* CSError.m in Sources */,
+				02D6367B1CBD244600793330 /* CSUserOperationsDispatcher.m in Sources */,
 				02A4756F1CBC3513007B973A /* CSGameCategory.m in Sources */,
 				02A475571CBC2826007B973A /* CSShowGameParams.m in Sources */,
 				02A4754B1CBC27BA007B973A /* CSShowUserParams.m in Sources */,
@@ -1184,13 +1213,16 @@
 				BD934CD419C211F600B48551 /* AssetCatalogIdentifiers.m in Sources */,
 				02A4756B1CBC330D007B973A /* CSPage.m in Sources */,
 				BD934CD519C211F600B48551 /* StoryboardIdentifiers.m in Sources */,
+				02BE998C1CC3ED9A00C3C195 /* CSLibraryOperationsDispatcher.m in Sources */,
 				02BCF96E1CBA5D4500E51490 /* CSLibraryViewController.m in Sources */,
 				02BCF95E1CBA5C1600E51490 /* CSLibraryViewModel.m in Sources */,
 				BD6951CF18EA4B0800F2F410 /* main.m in Sources */,
 				02BCF9621CBA5C4700E51490 /* CSLibraryTableViewCell.m in Sources */,
+				02BE99881CC3EC1400C3C195 /* CSReviewOperationsDispatcher.m in Sources */,
 				021CAF971CB7D3C8006CE6B9 /* CSSessionOperationsDispatcher.m in Sources */,
 				02BCF96A1CBA5D1200E51490 /* CSLibraryTableViewHeader.m in Sources */,
 				02A475771CBC5AF4007B973A /* CSGamesResponseSerializer.m in Sources */,
+				02BE99841CC3E72500C3C195 /* CSGameOperationsDispatcher.m in Sources */,
 				02BCF97C1CBA761800E51490 /* CSView.m in Sources */,
 				02A475531CBC281F007B973A /* CSShowGamesParams.m in Sources */,
 				021CAF931CB7D14E006CE6B9 /* CSLoginUserParams.m in Sources */,

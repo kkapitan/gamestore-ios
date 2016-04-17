@@ -1,18 +1,18 @@
 //
-//  CSSessionOperationsDispatcher.m
+//  CSUserOperationsDispatcher.m
 //  GameStore
 //
-//  Created by Krzysztof Kapitan on 08.04.2016.
+//  Created by Krzysztof Kapitan on 12.04.2016.
 //  Copyright © 2016 Cappsoft. All rights reserved.
 //
 
-#import "CSSessionOperationsDispatcher.h"
+#import "CSUserOperationsDispatcher.h"
 
-@implementation CSSessionOperationsDispatcher
+@implementation CSUserOperationsDispatcher
 
-- (void)loginUserWithParams:(CSLoginUserParams *)params completion:(CSSessionOperationsDispatcherCompletionBlock)block {
+- (void)updateCurrentUserWithParams:(CSUpdateUserParams *)params completion:(CSUserOperationsDispatcherCompletionBlock)block {
     
-    NSURLRequest *request = [[CSApiClient sharedManager] requestLoginUserWithParams:params];
+    NSURLRequest *request = [[CSApiClient sharedManager] requestUpdateCurrentUserWithParams:params];
     
     AFHTTPRequestOperation *operation = [[AFHTTPRequestOperation alloc] initWithRequest:request];
     operation.responseSerializer = [CSUserResponseSerializer serializer];
@@ -30,9 +30,9 @@
     [[CSApiClient sharedManager] enqueueOperation:operation];
 }
 
-- (void)registerUserWithParams:(CSRegisterUserParams *)params completion:(CSSessionOperationsDispatcherCompletionBlock)block {
+- (void)fetchUserWithParams:(CSShowUserParams *)params completion:(CSUserOperationsDispatcherCompletionBlock)block {
     
-    NSURLRequest *request = [[CSApiClient sharedManager] requestRegisterUserWithParams:params];
+    NSURLRequest *request = [[CSApiClient sharedManager] requestFetchUserWithParams:params];
     
     AFHTTPRequestOperation *operation = [[AFHTTPRequestOperation alloc] initWithRequest:request];
     operation.responseSerializer = [CSUserResponseSerializer serializer];
@@ -48,12 +48,11 @@
     }];
     
     [[CSApiClient sharedManager] enqueueOperation:operation];
-
 }
 
-- (void)logoutUserWithCompletion:(CSSessionOperationsDispatcherCompletionBlock)block {
-    
-    NSURLRequest *request = [[CSApiClient sharedManager] requestLogoutCurrentUser];
+- (void)deleteCurrentUserWithCompletion:(CSUserOperationsDispatcherCompletionBlock)block {
+        
+    NSURLRequest *request = [[CSApiClient sharedManager] requestDeleteCurrentUser];
     
     AFHTTPRequestOperation *operation = [[AFHTTPRequestOperation alloc] initWithRequest:request];
     
@@ -68,7 +67,6 @@
     }];
     
     [[CSApiClient sharedManager] enqueueOperation:operation];
-    
 }
 
 @end
