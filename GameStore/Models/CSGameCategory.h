@@ -6,9 +6,9 @@
 //  Copyright © 2016 Cappsoft. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "MTLModel.h"
 
-@interface CSGameCategory : NSObject
+@interface CSGameCategory : MTLModel
 
 @property (nonatomic, strong, readonly) NSString *title;
 

@@ -10,11 +10,11 @@
 
 @interface CSPage : NSObject
 
-@property (nonatomic, assign, readonly) NSInteger limit;
-@property (nonatomic, assign, readonly) NSInteger index;
+@property (nonatomic, assign, readonly) NSUInteger limit;
+@property (nonatomic, assign, readonly) NSUInteger index;
 
-- (instancetype)initWithIndex:(NSInteger)index;
-- (instancetype)initWithIndex:(NSInteger)index limit:(NSInteger)limit;
+- (instancetype)initWithIndex:(NSUInteger)index;
+- (instancetype)initWithIndex:(NSUInteger)index limit:(NSUInteger)limit;
 
 - (CSPage *)nextPage;
 

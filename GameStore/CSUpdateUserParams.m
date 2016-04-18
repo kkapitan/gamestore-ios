@@ -18,4 +18,26 @@
     return self;
 }
 
+- (NSDictionary *)params {
+    NSMutableDictionary *params = [NSMutableDictionary new];
+    
+    if (_user.email) {
+        [params setObject:_user.email forKey:@"email"];
+    }
+    
+    if (_user.lastName) {
+        [params setObject:_user.lastName forKey:@"last_name"];
+    }
+    
+    if (_user.firstName) {
+        [params setObject:_user.firstName forKey:@"name"];
+    }
+    
+    if (_user.nickname) {
+        [params setObject:_user.nickname forKey:@"nickname"];
+    }
+    
+    return @{ @"user" : params };
+}
+
 @end

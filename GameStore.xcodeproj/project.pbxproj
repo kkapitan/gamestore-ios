@@ -108,6 +108,8 @@
 		02BE99891CC3EC1400C3C195 /* CSReviewOperationsDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BE99871CC3EC1400C3C195 /* CSReviewOperationsDispatcher.m */; };
 		02BE998C1CC3ED9A00C3C195 /* CSLibraryOperationsDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BE998B1CC3ED9A00C3C195 /* CSLibraryOperationsDispatcher.m */; };
 		02BE998D1CC3ED9A00C3C195 /* CSLibraryOperationsDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BE998B1CC3ED9A00C3C195 /* CSLibraryOperationsDispatcher.m */; };
+		02BE99941CC40C3E00C3C195 /* CSGamesProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BE99931CC40C3E00C3C195 /* CSGamesProvider.m */; };
+		02BE99951CC40C3E00C3C195 /* CSGamesProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BE99931CC40C3E00C3C195 /* CSGamesProvider.m */; };
 		02D6367B1CBD244600793330 /* CSUserOperationsDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D6367A1CBD244600793330 /* CSUserOperationsDispatcher.m */; };
 		02D6367C1CBD244600793330 /* CSUserOperationsDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D6367A1CBD244600793330 /* CSUserOperationsDispatcher.m */; };
 		036A61EAF6146EA59BD29634 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A06B515E067379B8477A8245 /* libPods.a */; };
@@ -224,6 +226,8 @@
 		02BE99871CC3EC1400C3C195 /* CSReviewOperationsDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSReviewOperationsDispatcher.m; sourceTree = "<group>"; };
 		02BE998A1CC3ED9A00C3C195 /* CSLibraryOperationsDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSLibraryOperationsDispatcher.h; sourceTree = "<group>"; };
 		02BE998B1CC3ED9A00C3C195 /* CSLibraryOperationsDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSLibraryOperationsDispatcher.m; sourceTree = "<group>"; };
+		02BE99921CC40C3E00C3C195 /* CSGamesProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSGamesProvider.h; sourceTree = "<group>"; };
+		02BE99931CC40C3E00C3C195 /* CSGamesProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSGamesProvider.m; sourceTree = "<group>"; };
 		02D636791CBD244600793330 /* CSUserOperationsDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSUserOperationsDispatcher.h; sourceTree = "<group>"; };
 		02D6367A1CBD244600793330 /* CSUserOperationsDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSUserOperationsDispatcher.m; sourceTree = "<group>"; };
 		12CC9EC171F3BB2114E66841 /* Pods-Specs.test_staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs.test_staging.xcconfig"; path = "Pods/Target Support Files/Pods-Specs/Pods-Specs.test_staging.xcconfig"; sourceTree = "<group>"; };
@@ -496,6 +500,39 @@
 			name = "View Model";
 			sourceTree = "<group>";
 		};
+		02BE998E1CC40B4500C3C195 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				02BE99911CC40B6400C3C195 /* Provider */,
+				02BE99901CC40B5C00C3C195 /* ViewModels */,
+				02BE998F1CC40B4E00C3C195 /* Views */,
+			);
+			name = Store;
+			sourceTree = "<group>";
+		};
+		02BE998F1CC40B4E00C3C195 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		02BE99901CC40B5C00C3C195 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		02BE99911CC40B6400C3C195 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				02BE99921CC40C3E00C3C195 /* CSGamesProvider.h */,
+				02BE99931CC40C3E00C3C195 /* CSGamesProvider.m */,
+			);
+			name = Provider;
+			sourceTree = "<group>";
+		};
 		55C5AA14CC157D6E10D487F9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -617,6 +654,7 @@
 		BDB71B2618EA471400579B97 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				02BE998E1CC40B4500C3C195 /* Store */,
 				02BCF93A1CB9020200E51490 /* Sign In */,
 				02BCF94A1CB9313800E51490 /* Sign Up */,
 				02BCF9531CBA54E800E51490 /* Library */,
@@ -1143,6 +1181,7 @@
 				02D6367C1CBD244600793330 /* CSUserOperationsDispatcher.m in Sources */,
 				02A475701CBC3513007B973A /* CSGameCategory.m in Sources */,
 				02A475581CBC2826007B973A /* CSShowGameParams.m in Sources */,
+				02BE99951CC40C3E00C3C195 /* CSGamesProvider.m in Sources */,
 				02A4754C1CBC27BA007B973A /* CSShowUserParams.m in Sources */,
 				02BCF9591CBA558F00E51490 /* CSGame.m in Sources */,
 				026903EA1CB7C38500A84585 /* CSAppDelegate.m in Sources */,
@@ -1197,6 +1236,7 @@
 				02D6367B1CBD244600793330 /* CSUserOperationsDispatcher.m in Sources */,
 				02A4756F1CBC3513007B973A /* CSGameCategory.m in Sources */,
 				02A475571CBC2826007B973A /* CSShowGameParams.m in Sources */,
+				02BE99941CC40C3E00C3C195 /* CSGamesProvider.m in Sources */,
 				02A4754B1CBC27BA007B973A /* CSShowUserParams.m in Sources */,
 				02BCF9581CBA558F00E51490 /* CSGame.m in Sources */,
 				021CAF8B1CB7CDB1006CE6B9 /* CSAccount.m in Sources */,

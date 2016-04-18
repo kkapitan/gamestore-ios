@@ -22,6 +22,8 @@ typedef void(^CSGameOperationsDispatcherGamesCompletionBlock)(BOOL success, NSAr
 
 @interface CSGameOperationsDispatcher : NSObject
 
+- (instancetype)initWithQueue:(NSOperationQueue *)queue;
+
 - (void)fetchGameWithParams:(CSShowGameParams *)params completion:(CSGameOperationsDispatcherGameCompletionBlock)block;
 - (void)fetchGamesWithParams:(CSShowGamesParams *)params completion:(CSGameOperationsDispatcherGamesCompletionBlock)block;
 

@@ -8,7 +8,22 @@
 
 #import "CSUpdateGameLibraryParams.h"
 
-@implementation CSUpdateGameLibraryParams 
+@implementation CSUpdateGameLibraryParams
 
+- (instancetype)initWithUser:(CSUser *)user game:(CSGame *)game {
+    self = [super init];
+    if (self) {
+        _user = user;
+        _game = game;
+    }
+    return self;
+}
+
+- (NSDictionary *)params {
+    return @{
+             @"user_id" : @(_user.uid),
+             @"game_id" : @(_game.uid)
+             };
+}
 
 @end

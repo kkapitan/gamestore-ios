@@ -18,4 +18,8 @@
     return self;
 }
 
+- (NSDictionary *)params {
+    return @{};
+}
+
 @end

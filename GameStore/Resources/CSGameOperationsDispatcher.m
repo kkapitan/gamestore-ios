@@ -8,7 +8,19 @@
 
 #import "CSGameOperationsDispatcher.h"
 
+@interface CSGameOperationsDispatcher ()
+@property (nonatomic, strong) NSOperationQueue *queue;
+@end
+
 @implementation CSGameOperationsDispatcher
+
+- (instancetype)initWithQueue:(NSOperationQueue *)queue {
+    self = [super init];
+    if (self) {
+        _queue = queue;
+    }
+    return self;
+}
 
 - (void)fetchGameWithParams:(CSShowGameParams *)params completion:(CSGameOperationsDispatcherGameCompletionBlock)block {
     
@@ -27,7 +39,7 @@
         }
     }];
     
-    [[CSApiClient sharedManager] enqueueOperation:operation];
+    _queue ? [_queue addOperation:operation] : [[CSApiClient sharedManager] enqueueOperation:operation];
 }
 
 - (void)fetchGamesWithParams:(CSShowGamesParams *)params completion:(CSGameOperationsDispatcherGamesCompletionBlock)block {
@@ -47,7 +59,7 @@
         }
     }];
     
-    [[CSApiClient sharedManager] enqueueOperation:operation];
+    _queue ? [_queue addOperation:operation] : [[CSApiClient sharedManager] enqueueOperation:operation];
 }
 
 

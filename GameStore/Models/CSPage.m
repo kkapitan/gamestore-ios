@@ -19,7 +19,7 @@
     return self;
 }
 
-- (instancetype)initWithIndex:(NSInteger)index {
+- (instancetype)initWithIndex:(NSUInteger)index {
     self = [self init];
     if (self) {
         _index = index;
@@ -27,7 +27,7 @@
     return self;
 }
 
-- (instancetype)initWithIndex:(NSInteger)index limit:(NSInteger)limit {
+- (instancetype)initWithIndex:(NSUInteger)index limit:(NSUInteger)limit {
     self = [self initWithIndex:index];
     if (self) {
         _limit = limit;

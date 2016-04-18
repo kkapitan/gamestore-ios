@@ -20,4 +20,15 @@
     return self;
 }
 
+- (NSDictionary *)params {
+    return @{ @"review" : @{
+                  @"body" : _review.body,
+                  @"title" : _review.title,
+                  @"mark" : @(_review.mark),
+                  @"user_id": @(_user.uid),
+                  @"game_id": @(_game.uid),
+                }
+            };
+}
+
 @end

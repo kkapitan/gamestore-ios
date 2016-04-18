@@ -19,4 +19,21 @@
     return self;
 }
 
+- (NSDictionary *)params {
+    NSMutableDictionary *params = [NSMutableDictionary new];
+    
+    [params setObject:@(_page.limit) forKey:@"limit"];
+    [params setObject:@(_page.index) forKey:@"page"];
+    
+    if (_query.keyword && ![_query.keyword isEqualToString:@""]) {
+        [params setObject:_query.keyword forKey:@"keyword"];
+    }
+    
+    if (_query.category) {
+        [params setObject:_query.category forKey:@"category"];
+    }
+    
+    return params;
+}
+
 @end

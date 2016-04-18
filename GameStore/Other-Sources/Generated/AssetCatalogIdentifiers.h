@@ -6,6 +6,10 @@
 @interface CSImagesCatalog: NSObject
 
 +(UIImage *)gamePlaceholder;
++(UIImage *)icEditLastname;
++(UIImage *)icEditMail;
++(UIImage *)icEditName;
++(UIImage *)icEditNickname;
 +(UIImage *)icSettingsEdit;
 +(UIImage *)icSettingsFaq;
 +(UIImage *)icTabbarLibrary;
