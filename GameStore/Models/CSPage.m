@@ -14,7 +14,7 @@
     self = [super init];
     if (self) {
         _index = 0;
-        _limit = 25;
+        _limit = 5;
     }
     return self;
 }

@@ -47,6 +47,7 @@ PODS:
   - Mantle/extobjc (2.0.6)
   - MBProgressHUD (0.9.2)
   - SSKeychain (1.4.0)
+  - UIScrollView-InfiniteScroll (0.7.3)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.5)
@@ -55,6 +56,7 @@ DEPENDENCIES:
   - FormatterKit
   - Mantle
   - MBProgressHUD
+  - UIScrollView-InfiniteScroll
 
 EXTERNAL SOURCES:
   AUAccount:
@@ -74,5 +76,6 @@ SPEC CHECKSUMS:
   Mantle: 299966b00759634931699f69cb6a30b9239b944d
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   SSKeychain: c71293fa57216a40ab06c23f4085387583293de4
+  UIScrollView-InfiniteScroll: b6c7d6d155dca7f9c5dd43813ecffeb301b3d50c
 
 COCOAPODS: 0.39.0

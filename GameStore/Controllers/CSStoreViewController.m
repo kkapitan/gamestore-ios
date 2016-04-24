@@ -14,6 +14,9 @@
 //Views
 #import "CSStoreCollectionViewCell.h"
 
+//Categories
+#import "UIScrollView+InfiniteScroll.h"
+
 @interface CSStoreViewController () <CSStoreViewModelDelegate>
 @property (nonatomic, strong) CSStoreViewModel *viewModel;
 @end
@@ -29,6 +32,17 @@
     [self.collectionView registerNib:[CSStoreCollectionViewCell nib] forCellWithReuseIdentifier:[CSStoreCollectionViewCell reuseIdentifier]];
     
     [_viewModel loadData];
+    
+    __weak typeof(self) wSelf = self;
+    [self.collectionView addInfiniteScrollWithHandler:^(UICollectionView* collectionView) {
+        if (!wSelf.viewModel.provider.hasMoreData) {
+            [wSelf.collectionView finishInfiniteScroll];
+            
+            return ;
+        }
+        
+        [wSelf.viewModel fetchNextPage];
+    }];
 }
 
 #pragma mark -
@@ -58,12 +72,28 @@
 #pragma mark - CSStoreViewModelDelegate
 
 - (void)viewModel:(CSStoreViewModel *)viewModel didEncounterError:(UIAlertController *)alert {
+    [self.collectionView finishInfiniteScroll];
+    
     [self presentViewController:alert animated:YES completion:nil];
 }
 
 - (void)viewModelDidUpdateData:(CSStoreViewModel *)viewModel {
-    [self.collectionView reloadData];
+    [self.collectionView finishInfiniteScroll];
+    
+    NSUInteger pageIndex = viewModel.provider.page.index;
+    NSUInteger pageLimit = viewModel.provider.page.limit;
+    
+    NSUInteger numberOfItems = [viewModel numberOfObjectsInSection:0];
+    NSUInteger numberOfNewItems = numberOfItems - pageIndex * pageLimit;
+    
+    NSMutableArray *indexPaths = [NSMutableArray new];
+    for (NSUInteger index = numberOfItems - numberOfNewItems; index < numberOfItems; index++) {
+        [indexPaths addObject:[NSIndexPath indexPathForItem:(NSInteger)index inSection:0]];
+    }
+    
+    [self.collectionView performBatchUpdates:^{
+        [self.collectionView insertItemsAtIndexPaths:indexPaths];
+    } completion:nil];
 }
-
 
 @end
