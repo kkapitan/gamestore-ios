@@ -1,0 +1,67 @@
+//
+//  CSStoreViewModel.m
+//  GameStore
+//
+//  Created by Krzysztof Kapitan on 18.04.2016.
+//  Copyright © 2016 Cappsoft. All rights reserved.
+//
+
+#import "CSStoreViewModel.h"
+
+@interface CSStoreViewModel ()
+@property (nonatomic, strong) NSArray <CSGame *> *games;
+@end
+
+@implementation CSStoreViewModel
+
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        _provider = [CSGamesProvider new];
+        _provider.delegate = self;
+        _games = @[];
+    }
+    return self;
+}
+
+#pragma mark - 
+#pragma mark - Public
+
+- (NSUInteger)numberOfObjectsInSection:(NSInteger)section {
+    return _games.count;
+}
+
+- (CSStoreCellViewModel *)cellViewModelForIndexPath:(NSIndexPath *)indexPath {
+    CSGame *game = [self gameForIndexPath:indexPath];
+    return [[CSStoreCellViewModel alloc] initWithGame:game];
+}
+
+- (CSGame *)gameForIndexPath:(NSIndexPath *)indexPath {
+    return _games[(NSUInteger)indexPath.row];
+}
+
+- (void)loadData {
+    CSSearchQuery *query = [[CSSearchQuery alloc] initWithKeyword:_searchText category:_category];
+    [self.provider loadWithQuery:query];
+}
+
+- (void)fetchNextPage {
+    [self.provider fetchMore];
+}
+
+#pragma mark -
+#pragma mark - CSGamesProviderDelegate
+
+- (void)provider:(CSGamesProvider *)provider didFinishWithError:(NSError *)error {
+    UIAlertController *alert = [UIAlertController alertControllerWithError:error];
+    
+    [self.delegate viewModel:self didEncounterError:alert];
+}
+
+- (void)provider:(CSGamesProvider *)provider didFinishLoadingGames:(NSArray<CSGame *> *)games {
+    _games = games;
+    
+    [self.delegate viewModelDidUpdateData:self];
+}
+
+@end

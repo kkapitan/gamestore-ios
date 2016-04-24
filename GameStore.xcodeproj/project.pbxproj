@@ -64,6 +64,16 @@
 		02A475741CBC5AAC007B973A /* CSGameResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A475721CBC5AAC007B973A /* CSGameResponseSerializer.m */; };
 		02A475771CBC5AF4007B973A /* CSGamesResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A475761CBC5AF4007B973A /* CSGamesResponseSerializer.m */; };
 		02A475781CBC5AF4007B973A /* CSGamesResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A475761CBC5AF4007B973A /* CSGamesResponseSerializer.m */; };
+		02BB30A21CC4FDC300D68DE1 /* CSStoreViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BB30A11CC4FDC300D68DE1 /* CSStoreViewModel.m */; };
+		02BB30A31CC4FDC300D68DE1 /* CSStoreViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BB30A11CC4FDC300D68DE1 /* CSStoreViewModel.m */; };
+		02BB30A61CC5003B00D68DE1 /* CSStoreCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BB30A51CC5003B00D68DE1 /* CSStoreCellViewModel.m */; };
+		02BB30A71CC5003B00D68DE1 /* CSStoreCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BB30A51CC5003B00D68DE1 /* CSStoreCellViewModel.m */; };
+		02BB30AA1CC5005A00D68DE1 /* CSStoreCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BB30A91CC5005A00D68DE1 /* CSStoreCollectionViewCell.m */; };
+		02BB30AB1CC5005A00D68DE1 /* CSStoreCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BB30A91CC5005A00D68DE1 /* CSStoreCollectionViewCell.m */; };
+		02BB30AD1CC5007C00D68DE1 /* CSStoreCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02BB30AC1CC5007B00D68DE1 /* CSStoreCollectionViewCell.xib */; };
+		02BB30AE1CC5007C00D68DE1 /* CSStoreCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02BB30AC1CC5007B00D68DE1 /* CSStoreCollectionViewCell.xib */; };
+		02BB30B11CC500BA00D68DE1 /* CSStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BB30B01CC500BA00D68DE1 /* CSStoreViewController.m */; };
+		02BB30B21CC500BA00D68DE1 /* CSStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BB30B01CC500BA00D68DE1 /* CSStoreViewController.m */; };
 		02BCF92F1CB8220700E51490 /* CSRegisterUserParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF92E1CB8220700E51490 /* CSRegisterUserParams.m */; };
 		02BCF9301CB8220700E51490 /* CSRegisterUserParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF92E1CB8220700E51490 /* CSRegisterUserParams.m */; };
 		02BCF9341CB900BB00E51490 /* CSSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF9331CB900BB00E51490 /* CSSignInViewController.m */; };
@@ -112,6 +122,8 @@
 		02BE99951CC40C3E00C3C195 /* CSGamesProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BE99931CC40C3E00C3C195 /* CSGamesProvider.m */; };
 		02D6367B1CBD244600793330 /* CSUserOperationsDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D6367A1CBD244600793330 /* CSUserOperationsDispatcher.m */; };
 		02D6367C1CBD244600793330 /* CSUserOperationsDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D6367A1CBD244600793330 /* CSUserOperationsDispatcher.m */; };
+		02E3417C1CC5229D005D17B4 /* CSCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E3417B1CC5229D005D17B4 /* CSCollectionViewCell.m */; };
+		02E3417D1CC5229D005D17B4 /* CSCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E3417B1CC5229D005D17B4 /* CSCollectionViewCell.m */; };
 		036A61EAF6146EA59BD29634 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A06B515E067379B8477A8245 /* libPods.a */; };
 		074C8AD7A4D403DECEE7F926 /* libPods-Specs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A5F5E57179B0D085AF4FF2 /* libPods-Specs.a */; };
 		BD304C8318E77F7E0034105E /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BD304C8218E77F7E0034105E /* Settings.bundle */; };
@@ -185,6 +197,15 @@
 		02A475721CBC5AAC007B973A /* CSGameResponseSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSGameResponseSerializer.m; sourceTree = "<group>"; };
 		02A475751CBC5AF4007B973A /* CSGamesResponseSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSGamesResponseSerializer.h; sourceTree = "<group>"; };
 		02A475761CBC5AF4007B973A /* CSGamesResponseSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSGamesResponseSerializer.m; sourceTree = "<group>"; };
+		02BB30A01CC4FDC300D68DE1 /* CSStoreViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSStoreViewModel.h; sourceTree = "<group>"; };
+		02BB30A11CC4FDC300D68DE1 /* CSStoreViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSStoreViewModel.m; sourceTree = "<group>"; };
+		02BB30A41CC5003B00D68DE1 /* CSStoreCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSStoreCellViewModel.h; sourceTree = "<group>"; };
+		02BB30A51CC5003B00D68DE1 /* CSStoreCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSStoreCellViewModel.m; sourceTree = "<group>"; };
+		02BB30A81CC5005A00D68DE1 /* CSStoreCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSStoreCollectionViewCell.h; sourceTree = "<group>"; };
+		02BB30A91CC5005A00D68DE1 /* CSStoreCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSStoreCollectionViewCell.m; sourceTree = "<group>"; };
+		02BB30AC1CC5007B00D68DE1 /* CSStoreCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CSStoreCollectionViewCell.xib; sourceTree = "<group>"; };
+		02BB30AF1CC500BA00D68DE1 /* CSStoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSStoreViewController.h; sourceTree = "<group>"; };
+		02BB30B01CC500BA00D68DE1 /* CSStoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSStoreViewController.m; sourceTree = "<group>"; };
 		02BCF92D1CB8220700E51490 /* CSRegisterUserParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSRegisterUserParams.h; sourceTree = "<group>"; };
 		02BCF92E1CB8220700E51490 /* CSRegisterUserParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSRegisterUserParams.m; sourceTree = "<group>"; };
 		02BCF9321CB900BB00E51490 /* CSSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSSignInViewController.h; sourceTree = "<group>"; };
@@ -230,6 +251,8 @@
 		02BE99931CC40C3E00C3C195 /* CSGamesProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSGamesProvider.m; sourceTree = "<group>"; };
 		02D636791CBD244600793330 /* CSUserOperationsDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSUserOperationsDispatcher.h; sourceTree = "<group>"; };
 		02D6367A1CBD244600793330 /* CSUserOperationsDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSUserOperationsDispatcher.m; sourceTree = "<group>"; };
+		02E3417A1CC5229D005D17B4 /* CSCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSCollectionViewCell.h; sourceTree = "<group>"; };
+		02E3417B1CC5229D005D17B4 /* CSCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSCollectionViewCell.m; sourceTree = "<group>"; };
 		12CC9EC171F3BB2114E66841 /* Pods-Specs.test_staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs.test_staging.xcconfig"; path = "Pods/Target Support Files/Pods-Specs/Pods-Specs.test_staging.xcconfig"; sourceTree = "<group>"; };
 		2CB569C4CA54BBB2A8A3438F /* Pods.adhoc_production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.adhoc_production.xcconfig; path = "Pods/Target Support Files/Pods/Pods.adhoc_production.xcconfig"; sourceTree = "<group>"; };
 		326C1F0145B5BE66CBCC67F1 /* Pods-Specs.test_production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs.test_production.xcconfig"; path = "Pods/Target Support Files/Pods-Specs/Pods-Specs.test_production.xcconfig"; sourceTree = "<group>"; };
@@ -503,6 +526,8 @@
 		02BE998E1CC40B4500C3C195 /* Store */ = {
 			isa = PBXGroup;
 			children = (
+				02BB30AF1CC500BA00D68DE1 /* CSStoreViewController.h */,
+				02BB30B01CC500BA00D68DE1 /* CSStoreViewController.m */,
 				02BE99911CC40B6400C3C195 /* Provider */,
 				02BE99901CC40B5C00C3C195 /* ViewModels */,
 				02BE998F1CC40B4E00C3C195 /* Views */,
@@ -513,6 +538,9 @@
 		02BE998F1CC40B4E00C3C195 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				02BB30A81CC5005A00D68DE1 /* CSStoreCollectionViewCell.h */,
+				02BB30A91CC5005A00D68DE1 /* CSStoreCollectionViewCell.m */,
+				02BB30AC1CC5007B00D68DE1 /* CSStoreCollectionViewCell.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -520,6 +548,10 @@
 		02BE99901CC40B5C00C3C195 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				02BB30A01CC4FDC300D68DE1 /* CSStoreViewModel.h */,
+				02BB30A11CC4FDC300D68DE1 /* CSStoreViewModel.m */,
+				02BB30A41CC5003B00D68DE1 /* CSStoreCellViewModel.h */,
+				02BB30A51CC5003B00D68DE1 /* CSStoreCellViewModel.m */,
 			);
 			name = ViewModels;
 			sourceTree = "<group>";
@@ -624,6 +656,8 @@
 				02BCF9771CBA61A000E51490 /* CSTableViewCell.m */,
 				02BCF97A1CBA761800E51490 /* CSView.h */,
 				02BCF97B1CBA761800E51490 /* CSView.m */,
+				02E3417A1CC5229D005D17B4 /* CSCollectionViewCell.h */,
+				02E3417B1CC5229D005D17B4 /* CSCollectionViewCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -851,6 +885,7 @@
 				02BCF9721CBA5EA500E51490 /* CSLibraryTableViewCell.xib in Resources */,
 				026903F61CB7C38500A84585 /* Settings.bundle in Resources */,
 				026903F71CB7C38500A84585 /* Main.storyboard in Resources */,
+				02BB30AE1CC5007C00D68DE1 /* CSStoreCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -866,6 +901,7 @@
 				02BCF9711CBA5EA500E51490 /* CSLibraryTableViewCell.xib in Resources */,
 				BD304C8318E77F7E0034105E /* Settings.bundle in Resources */,
 				BDF68AF11B713C3400153C8D /* Main.storyboard in Resources */,
+				02BB30AD1CC5007C00D68DE1 /* CSStoreCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1175,6 +1211,7 @@
 				02BCF9451CB9032D00E51490 /* NSString+Validation.m in Sources */,
 				026903E91CB7C38500A84585 /* CSEnvironment.m in Sources */,
 				021CAFA81CB7EFD1006CE6B9 /* CSUserResponseSerializer.m in Sources */,
+				02BB30B21CC500BA00D68DE1 /* CSStoreViewController.m in Sources */,
 				021CAFA41CB7EA05006CE6B9 /* CSError.m in Sources */,
 				021CAF8C1CB7CDB1006CE6B9 /* CSAccount.m in Sources */,
 				021CAF881CB7CA1B006CE6B9 /* CSRequests.m in Sources */,
@@ -1183,6 +1220,8 @@
 				02A475581CBC2826007B973A /* CSShowGameParams.m in Sources */,
 				02BE99951CC40C3E00C3C195 /* CSGamesProvider.m in Sources */,
 				02A4754C1CBC27BA007B973A /* CSShowUserParams.m in Sources */,
+				02BB30A71CC5003B00D68DE1 /* CSStoreCellViewModel.m in Sources */,
+				02BB30AB1CC5005A00D68DE1 /* CSStoreCollectionViewCell.m in Sources */,
 				02BCF9591CBA558F00E51490 /* CSGame.m in Sources */,
 				026903EA1CB7C38500A84585 /* CSAppDelegate.m in Sources */,
 				02BCF9791CBA61A000E51490 /* CSTableViewCell.m in Sources */,
@@ -1192,6 +1231,7 @@
 				021CAF821CB7C894006CE6B9 /* CSApiClient.m in Sources */,
 				02A475481CBC21B4007B973A /* CSReview.m in Sources */,
 				026903EB1CB7C38500A84585 /* AssetCatalogIdentifiers.m in Sources */,
+				02BB30A31CC4FDC300D68DE1 /* CSStoreViewModel.m in Sources */,
 				02BCF9671CBA5CD600E51490 /* CSLibraryCellViewModel.m in Sources */,
 				02A475601CBC283D007B973A /* CSPostReviewParams.m in Sources */,
 				026903EC1CB7C38500A84585 /* StoryboardIdentifiers.m in Sources */,
@@ -1218,6 +1258,7 @@
 				02A475741CBC5AAC007B973A /* CSGameResponseSerializer.m in Sources */,
 				02A475501CBC27D7007B973A /* CSUpdateUserParams.m in Sources */,
 				02A4755C1CBC2832007B973A /* CSUpdateGameLibraryParams.m in Sources */,
+				02E3417D1CC5229D005D17B4 /* CSCollectionViewCell.m in Sources */,
 				02BCF9491CB9077800E51490 /* UIAlertController+Errors.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1230,6 +1271,7 @@
 				02BCF9441CB9032D00E51490 /* NSString+Validation.m in Sources */,
 				02BCF9371CB900D500E51490 /* CSSignUpViewController.m in Sources */,
 				021CAF9F1CB7E980006CE6B9 /* CSJSONResponseSerializer.m in Sources */,
+				02BB30B11CC500BA00D68DE1 /* CSStoreViewController.m in Sources */,
 				026903E01CB7B5CC00A84585 /* CSEnvironment.m in Sources */,
 				021CAFA71CB7EFD1006CE6B9 /* CSUserResponseSerializer.m in Sources */,
 				021CAFA31CB7EA05006CE6B9 /* CSError.m in Sources */,
@@ -1238,6 +1280,8 @@
 				02A475571CBC2826007B973A /* CSShowGameParams.m in Sources */,
 				02BE99941CC40C3E00C3C195 /* CSGamesProvider.m in Sources */,
 				02A4754B1CBC27BA007B973A /* CSShowUserParams.m in Sources */,
+				02BB30A61CC5003B00D68DE1 /* CSStoreCellViewModel.m in Sources */,
+				02BB30AA1CC5005A00D68DE1 /* CSStoreCollectionViewCell.m in Sources */,
 				02BCF9581CBA558F00E51490 /* CSGame.m in Sources */,
 				021CAF8B1CB7CDB1006CE6B9 /* CSAccount.m in Sources */,
 				02BCF9781CBA61A000E51490 /* CSTableViewCell.m in Sources */,
@@ -1247,6 +1291,7 @@
 				BDDB996318C3943B003EBC42 /* CSAppDelegate.m in Sources */,
 				02A475471CBC21B4007B973A /* CSReview.m in Sources */,
 				021CAF9B1CB7E8C4006CE6B9 /* CSUser.m in Sources */,
+				02BB30A21CC4FDC300D68DE1 /* CSStoreViewModel.m in Sources */,
 				02BCF9661CBA5CD600E51490 /* CSLibraryCellViewModel.m in Sources */,
 				02A4755F1CBC283D007B973A /* CSPostReviewParams.m in Sources */,
 				021CAF811CB7C894006CE6B9 /* CSApiClient.m in Sources */,
@@ -1273,6 +1318,7 @@
 				02A475731CBC5AAC007B973A /* CSGameResponseSerializer.m in Sources */,
 				02A4754F1CBC27D7007B973A /* CSUpdateUserParams.m in Sources */,
 				02A4755B1CBC2832007B973A /* CSUpdateGameLibraryParams.m in Sources */,
+				02E3417C1CC5229D005D17B4 /* CSCollectionViewCell.m in Sources */,
 				02BCF9481CB9077800E51490 /* UIAlertController+Errors.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
