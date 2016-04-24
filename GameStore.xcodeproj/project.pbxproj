@@ -170,7 +170,6 @@
 		026903DF1CB7B5CC00A84585 /* CSEnvironment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSEnvironment.m; sourceTree = "<group>"; };
 		026903E21CB7B83100A84585 /* Configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Configuration.plist; sourceTree = "<group>"; };
 		026904061CB7C38500A84585 /* GameStore-Staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GameStore-Staging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		026904071CB7C38500A84585 /* GameStore copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GameStore copy-Info.plist"; path = "/Users/kkapitan/Projekty/iOS/gamestore-ios/GameStore/GameStore copy-Info.plist"; sourceTree = "<absolute>"; };
 		02A475451CBC21B4007B973A /* CSReview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSReview.h; sourceTree = "<group>"; };
 		02A475461CBC21B4007B973A /* CSReview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSReview.m; sourceTree = "<group>"; };
 		02A475491CBC27BA007B973A /* CSShowUserParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSShowUserParams.h; sourceTree = "<group>"; };
@@ -704,7 +703,6 @@
 				D36FABF09F1A984E257F1EAF /* Frameworks */,
 				55C5AA14CC157D6E10D487F9 /* Pods */,
 				BDDB995018C3943B003EBC42 /* Products */,
-				026904071CB7C38500A84585 /* GameStore copy-Info.plist */,
 			);
 			indentWidth = 4;
 			sourceTree = "<group>";
@@ -1351,7 +1349,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GameStore/Application/GameStore-Prefix.pch";
-				INFOPLIST_FILE = "GameStore copy-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/GameStore/Other-Sources/GameStore-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cappsoft.${PRODUCT_NAME:rfc1034identifier:lower}${BUNDLE_ID_SUFFIX}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1367,7 +1365,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GameStore/Application/GameStore-Prefix.pch";
-				INFOPLIST_FILE = "GameStore copy-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/GameStore/Other-Sources/GameStore-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cappsoft.${PRODUCT_NAME:rfc1034identifier:lower}${BUNDLE_ID_SUFFIX}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1383,7 +1381,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GameStore/Application/GameStore-Prefix.pch";
-				INFOPLIST_FILE = "GameStore copy-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/GameStore/Other-Sources/GameStore-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cappsoft.${PRODUCT_NAME:rfc1034identifier:lower}${BUNDLE_ID_SUFFIX}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1399,7 +1397,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GameStore/Application/GameStore-Prefix.pch";
-				INFOPLIST_FILE = "GameStore copy-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/GameStore/Other-Sources/GameStore-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cappsoft.${PRODUCT_NAME:rfc1034identifier:lower}${BUNDLE_ID_SUFFIX}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1415,7 +1413,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GameStore/Application/GameStore-Prefix.pch";
-				INFOPLIST_FILE = "GameStore copy-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/GameStore/Other-Sources/GameStore-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cappsoft.${PRODUCT_NAME:rfc1034identifier:lower}${BUNDLE_ID_SUFFIX}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1431,7 +1429,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GameStore/Application/GameStore-Prefix.pch";
-				INFOPLIST_FILE = "GameStore copy-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/GameStore/Other-Sources/GameStore-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cappsoft.${PRODUCT_NAME:rfc1034identifier:lower}${BUNDLE_ID_SUFFIX}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1447,7 +1445,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GameStore/Application/GameStore-Prefix.pch";
-				INFOPLIST_FILE = "GameStore copy-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/GameStore/Other-Sources/GameStore-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cappsoft.${PRODUCT_NAME:rfc1034identifier:lower}${BUNDLE_ID_SUFFIX}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1463,7 +1461,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GameStore/Application/GameStore-Prefix.pch";
-				INFOPLIST_FILE = "GameStore copy-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/GameStore/Other-Sources/GameStore-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cappsoft.${PRODUCT_NAME:rfc1034identifier:lower}${BUNDLE_ID_SUFFIX}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1479,7 +1477,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GameStore/Application/GameStore-Prefix.pch";
-				INFOPLIST_FILE = "GameStore copy-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/GameStore/Other-Sources/GameStore-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cappsoft.${PRODUCT_NAME:rfc1034identifier:lower}${BUNDLE_ID_SUFFIX}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
