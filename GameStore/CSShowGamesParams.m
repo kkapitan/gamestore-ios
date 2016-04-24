@@ -30,7 +30,7 @@
     }
     
     if (_query.category) {
-        [params setObject:_query.category forKey:@"category"];
+        [params setObject:_query.category.title forKey:@"category"];
     }
     
     return params;

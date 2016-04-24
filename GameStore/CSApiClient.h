@@ -8,6 +8,9 @@
 
 #import <AFNetworking/AFNetworking.h>
 
+//Formater
+#import "TTTURLRequestFormatter.h"
+
 @interface CSApiClient : AFHTTPSessionManager
 
 + (instancetype)sharedManager;

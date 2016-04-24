@@ -51,11 +51,11 @@
     
     [operation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *innerOperation, NSDictionary *responseObject) {
         if (block) {
-            block(YES, responseObject[@"games"], nil);
+            block(YES, responseObject[@"games"], responseObject[@"categories"], nil);
         }
     } failure:^(AFHTTPRequestOperation *innerOperation, NSError *error) {
         if (block) {
-            block(NO, nil, error);
+            block(NO, nil, nil, error);
         }
     }];
     

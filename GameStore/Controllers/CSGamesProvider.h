@@ -20,6 +20,7 @@
 
 @protocol CSGamesProviderDelegate <NSObject>
 
+- (void)provider:(CSGamesProvider *)provider didFinishLoadingCategories:(NSArray <CSGameCategory *> *)categories;
 - (void)provider:(CSGamesProvider *)provider didFinishLoadingGames:(NSArray <CSGame *> *)games;
 - (void)provider:(CSGamesProvider *)provider didFinishWithError:(NSError *)error;
 

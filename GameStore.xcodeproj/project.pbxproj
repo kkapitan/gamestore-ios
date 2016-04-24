@@ -64,6 +64,8 @@
 		02A475741CBC5AAC007B973A /* CSGameResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A475721CBC5AAC007B973A /* CSGameResponseSerializer.m */; };
 		02A475771CBC5AF4007B973A /* CSGamesResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A475761CBC5AF4007B973A /* CSGamesResponseSerializer.m */; };
 		02A475781CBC5AF4007B973A /* CSGamesResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A475761CBC5AF4007B973A /* CSGamesResponseSerializer.m */; };
+		02AB03131CCD6F5B0040B9BB /* BTNavigationDropdownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AB03121CCD6F5B0040B9BB /* BTNavigationDropdownMenu.swift */; };
+		02AB03141CCD6F6F0040B9BB /* BTNavigationDropdownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AB03121CCD6F5B0040B9BB /* BTNavigationDropdownMenu.swift */; };
 		02BB30A21CC4FDC300D68DE1 /* CSStoreViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BB30A11CC4FDC300D68DE1 /* CSStoreViewModel.m */; };
 		02BB30A31CC4FDC300D68DE1 /* CSStoreViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BB30A11CC4FDC300D68DE1 /* CSStoreViewModel.m */; };
 		02BB30A61CC5003B00D68DE1 /* CSStoreCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BB30A51CC5003B00D68DE1 /* CSStoreCellViewModel.m */; };
@@ -196,6 +198,8 @@
 		02A475721CBC5AAC007B973A /* CSGameResponseSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSGameResponseSerializer.m; sourceTree = "<group>"; };
 		02A475751CBC5AF4007B973A /* CSGamesResponseSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSGamesResponseSerializer.h; sourceTree = "<group>"; };
 		02A475761CBC5AF4007B973A /* CSGamesResponseSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSGamesResponseSerializer.m; sourceTree = "<group>"; };
+		02AB03111CCD6F5B0040B9BB /* GameStore-Production-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GameStore-Production-Bridging-Header.h"; sourceTree = "<group>"; };
+		02AB03121CCD6F5B0040B9BB /* BTNavigationDropdownMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BTNavigationDropdownMenu.swift; path = GameStore/Dependencies/BTNavigationDropdownMenu.swift; sourceTree = SOURCE_ROOT; };
 		02BB30A01CC4FDC300D68DE1 /* CSStoreViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSStoreViewModel.h; sourceTree = "<group>"; };
 		02BB30A11CC4FDC300D68DE1 /* CSStoreViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSStoreViewModel.m; sourceTree = "<group>"; };
 		02BB30A41CC5003B00D68DE1 /* CSStoreCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSStoreCellViewModel.h; sourceTree = "<group>"; };
@@ -651,12 +655,14 @@
 		BD574B0318EA481500EDD66F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				02AB03121CCD6F5B0040B9BB /* BTNavigationDropdownMenu.swift */,
 				02BCF9761CBA61A000E51490 /* CSTableViewCell.h */,
 				02BCF9771CBA61A000E51490 /* CSTableViewCell.m */,
 				02BCF97A1CBA761800E51490 /* CSView.h */,
 				02BCF97B1CBA761800E51490 /* CSView.m */,
 				02E3417A1CC5229D005D17B4 /* CSCollectionViewCell.h */,
 				02E3417B1CC5229D005D17B4 /* CSCollectionViewCell.m */,
+				02AB03111CCD6F5B0040B9BB /* GameStore-Production-Bridging-Header.h */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -842,6 +848,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = CS;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = Cappsoft;
 				TargetAttributes = {
@@ -1242,6 +1249,7 @@
 				021CAF981CB7D3C8006CE6B9 /* CSSessionOperationsDispatcher.m in Sources */,
 				02BCF9631CBA5C4700E51490 /* CSLibraryTableViewCell.m in Sources */,
 				02BE99891CC3EC1400C3C195 /* CSReviewOperationsDispatcher.m in Sources */,
+				02AB03141CCD6F6F0040B9BB /* BTNavigationDropdownMenu.swift in Sources */,
 				021CAF941CB7D14E006CE6B9 /* CSLoginUserParams.m in Sources */,
 				02BCF96B1CBA5D1200E51490 /* CSLibraryTableViewHeader.m in Sources */,
 				02A475781CBC5AF4007B973A /* CSGamesResponseSerializer.m in Sources */,
@@ -1302,6 +1310,7 @@
 				BD6951CF18EA4B0800F2F410 /* main.m in Sources */,
 				02BCF9621CBA5C4700E51490 /* CSLibraryTableViewCell.m in Sources */,
 				02BE99881CC3EC1400C3C195 /* CSReviewOperationsDispatcher.m in Sources */,
+				02AB03131CCD6F5B0040B9BB /* BTNavigationDropdownMenu.swift in Sources */,
 				021CAF971CB7D3C8006CE6B9 /* CSSessionOperationsDispatcher.m in Sources */,
 				02BCF96A1CBA5D1200E51490 /* CSLibraryTableViewHeader.m in Sources */,
 				02A475771CBC5AF4007B973A /* CSGamesResponseSerializer.m in Sources */,
@@ -1352,6 +1361,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/GameStore/Other-Sources/GameStore-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cappsoft.${PRODUCT_NAME:rfc1034identifier:lower}${BUNDLE_ID_SUFFIX}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "GameStore-Swift.h";
 			};
 			name = Debug_Staging;
 		};
@@ -1368,6 +1378,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/GameStore/Other-Sources/GameStore-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cappsoft.${PRODUCT_NAME:rfc1034identifier:lower}${BUNDLE_ID_SUFFIX}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "GameStore-Swift.h";
 			};
 			name = Debug_Production;
 		};
@@ -1384,6 +1395,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/GameStore/Other-Sources/GameStore-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cappsoft.${PRODUCT_NAME:rfc1034identifier:lower}${BUNDLE_ID_SUFFIX}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "GameStore-Swift.h";
 			};
 			name = Test_Staging;
 		};
@@ -1400,6 +1412,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/GameStore/Other-Sources/GameStore-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cappsoft.${PRODUCT_NAME:rfc1034identifier:lower}${BUNDLE_ID_SUFFIX}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "GameStore-Swift.h";
 			};
 			name = Test_Production;
 		};
@@ -1416,6 +1429,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/GameStore/Other-Sources/GameStore-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cappsoft.${PRODUCT_NAME:rfc1034identifier:lower}${BUNDLE_ID_SUFFIX}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "GameStore-Swift.h";
 			};
 			name = Distribution;
 		};
@@ -1432,6 +1446,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/GameStore/Other-Sources/GameStore-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cappsoft.${PRODUCT_NAME:rfc1034identifier:lower}${BUNDLE_ID_SUFFIX}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "GameStore-Swift.h";
 			};
 			name = AdHoc_Staging;
 		};
@@ -1448,6 +1463,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/GameStore/Other-Sources/GameStore-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cappsoft.${PRODUCT_NAME:rfc1034identifier:lower}${BUNDLE_ID_SUFFIX}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "GameStore-Swift.h";
 			};
 			name = AdHoc_Production;
 		};
@@ -1464,6 +1480,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/GameStore/Other-Sources/GameStore-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cappsoft.${PRODUCT_NAME:rfc1034identifier:lower}${BUNDLE_ID_SUFFIX}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "GameStore-Swift.h";
 			};
 			name = Profile_Staging;
 		};
@@ -1480,6 +1497,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/GameStore/Other-Sources/GameStore-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cappsoft.${PRODUCT_NAME:rfc1034identifier:lower}${BUNDLE_ID_SUFFIX}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "GameStore-Swift.h";
 			};
 			name = Profile_Production;
 		};
@@ -1487,8 +1505,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BD4E49501B8AC7BE004C140F /* GameStore-Debug.xcconfig */;
 			buildSettings = {
+				DEFINES_MODULE = YES;
 				ENABLE_TESTABILITY = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = GameStore;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1501,12 +1521,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_ID_SUFFIX = .prod;
 				BUNDLE_NAME_SUFFIX = " (Prod)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GameStore/Application/GameStore-Prefix.pch";
 				INFOPLIST_FILE = "GameStore/Other-Sources/GameStore-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cappsoft.${PRODUCT_NAME:rfc1034identifier:lower}${BUNDLE_ID_SUFFIX}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GameStore/Views/GameStore-Production-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "GameStore-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug_Production;
 		};
@@ -1534,7 +1559,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BD4E49531B8AC7BE004C140F /* GameStore-Test.xcconfig */;
 			buildSettings = {
+				DEFINES_MODULE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = GameStore;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1547,12 +1574,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_ID_SUFFIX = .prod;
 				BUNDLE_NAME_SUFFIX = " (Prod)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GameStore/Application/GameStore-Prefix.pch";
 				INFOPLIST_FILE = "GameStore/Other-Sources/GameStore-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cappsoft.${PRODUCT_NAME:rfc1034identifier:lower}${BUNDLE_ID_SUFFIX}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GameStore/Views/GameStore-Production-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "GameStore-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Test_Production;
 		};
@@ -1580,7 +1612,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BD4E49521B8AC7BE004C140F /* GameStore-Release.xcconfig */;
 			buildSettings = {
+				DEFINES_MODULE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = GameStore;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1593,12 +1627,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_ID_SUFFIX = .prod;
 				BUNDLE_NAME_SUFFIX = " (Prod)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GameStore/Application/GameStore-Prefix.pch";
 				INFOPLIST_FILE = "GameStore/Other-Sources/GameStore-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cappsoft.${PRODUCT_NAME:rfc1034identifier:lower}${BUNDLE_ID_SUFFIX}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GameStore/Views/GameStore-Production-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "GameStore-Swift.h";
 			};
 			name = AdHoc_Production;
 		};
@@ -1626,7 +1664,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BD4E49511B8AC7BE004C140F /* GameStore-Profile.xcconfig */;
 			buildSettings = {
+				DEFINES_MODULE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = GameStore;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1639,12 +1679,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_ID_SUFFIX = .prod;
 				BUNDLE_NAME_SUFFIX = " (Prod)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GameStore/Application/GameStore-Prefix.pch";
 				INFOPLIST_FILE = "GameStore/Other-Sources/GameStore-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cappsoft.${PRODUCT_NAME:rfc1034identifier:lower}${BUNDLE_ID_SUFFIX}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GameStore/Views/GameStore-Production-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "GameStore-Swift.h";
 			};
 			name = Profile_Production;
 		};
@@ -1672,7 +1716,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BD4E49521B8AC7BE004C140F /* GameStore-Release.xcconfig */;
 			buildSettings = {
+				DEFINES_MODULE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = GameStore;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1685,12 +1731,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_ID_SUFFIX = .staging;
 				BUNDLE_NAME_SUFFIX = " (Staging)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GameStore/Application/GameStore-Prefix.pch";
 				INFOPLIST_FILE = "GameStore/Other-Sources/GameStore-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cappsoft.${PRODUCT_NAME:rfc1034identifier:lower}${BUNDLE_ID_SUFFIX}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GameStore/Views/GameStore-Production-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "GameStore-Swift.h";
 			};
 			name = AdHoc_Staging;
 		};
@@ -1718,8 +1768,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BD4E49501B8AC7BE004C140F /* GameStore-Debug.xcconfig */;
 			buildSettings = {
+				DEFINES_MODULE = YES;
 				ENABLE_TESTABILITY = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = GameStore;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1729,7 +1781,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BD4E49521B8AC7BE004C140F /* GameStore-Release.xcconfig */;
 			buildSettings = {
+				DEFINES_MODULE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = GameStore;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1742,12 +1796,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_ID_SUFFIX = .staging;
 				BUNDLE_NAME_SUFFIX = " (Staging)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GameStore/Application/GameStore-Prefix.pch";
 				INFOPLIST_FILE = "GameStore/Other-Sources/GameStore-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cappsoft.${PRODUCT_NAME:rfc1034identifier:lower}${BUNDLE_ID_SUFFIX}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GameStore/Views/GameStore-Production-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "GameStore-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug_Staging;
 		};
@@ -1758,12 +1817,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_ID_SUFFIX = "";
 				BUNDLE_NAME_SUFFIX = "";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GameStore/Application/GameStore-Prefix.pch";
 				INFOPLIST_FILE = "GameStore/Other-Sources/GameStore-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cappsoft.${PRODUCT_NAME:rfc1034identifier:lower}${BUNDLE_ID_SUFFIX}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GameStore/Views/GameStore-Production-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "GameStore-Swift.h";
 			};
 			name = Distribution;
 		};
@@ -1811,7 +1874,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BD4E49511B8AC7BE004C140F /* GameStore-Profile.xcconfig */;
 			buildSettings = {
+				DEFINES_MODULE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = GameStore;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1824,12 +1889,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_ID_SUFFIX = .staging;
 				BUNDLE_NAME_SUFFIX = " (Staging)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GameStore/Application/GameStore-Prefix.pch";
 				INFOPLIST_FILE = "GameStore/Other-Sources/GameStore-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cappsoft.${PRODUCT_NAME:rfc1034identifier:lower}${BUNDLE_ID_SUFFIX}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GameStore/Views/GameStore-Production-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "GameStore-Swift.h";
 			};
 			name = Profile_Staging;
 		};
@@ -1857,7 +1926,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BD4E49531B8AC7BE004C140F /* GameStore-Test.xcconfig */;
 			buildSettings = {
+				DEFINES_MODULE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = GameStore;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1870,12 +1941,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_ID_SUFFIX = .staging;
 				BUNDLE_NAME_SUFFIX = " (Staging)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GameStore/Application/GameStore-Prefix.pch";
 				INFOPLIST_FILE = "GameStore/Other-Sources/GameStore-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cappsoft.${PRODUCT_NAME:rfc1034identifier:lower}${BUNDLE_ID_SUFFIX}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GameStore/Views/GameStore-Production-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "GameStore-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Test_Staging;
 		};

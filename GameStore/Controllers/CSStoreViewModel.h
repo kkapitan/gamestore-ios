@@ -22,6 +22,7 @@
 @protocol CSStoreViewModelDelegate <NSObject>
 
 - (void)viewModel:(CSStoreViewModel *)viewModel didEncounterError:(UIAlertController *)alert;
+- (void)viewModeldidUpdateCategories:(CSStoreViewModel *)viewModel;
 - (void)viewModelDidUpdateData:(CSStoreViewModel *)viewModel;
 
 @end
@@ -38,6 +39,9 @@
 - (NSUInteger)numberOfObjectsInSection:(NSInteger)section;
 - (CSStoreCellViewModel *)cellViewModelForIndexPath:(NSIndexPath *)indexPath;
 - (CSGame *)gameForIndexPath:(NSIndexPath *)indexPath;
+
+- (NSArray <NSString *> *)categoryNames;
+- (CSGameCategory *)categoryAtIndex:(NSInteger)index;
 
 - (void)loadData;
 - (void)fetchNextPage;

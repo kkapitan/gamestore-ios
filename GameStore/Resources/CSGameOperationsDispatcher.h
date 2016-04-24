@@ -18,7 +18,7 @@
 #import "CSGamesResponseSerializer.h"
 
 typedef void(^CSGameOperationsDispatcherGameCompletionBlock)(BOOL success, CSGame *game, NSError *error);
-typedef void(^CSGameOperationsDispatcherGamesCompletionBlock)(BOOL success, NSArray <CSGame *> *games, NSError *error);
+typedef void(^CSGameOperationsDispatcherGamesCompletionBlock)(BOOL success, NSArray <CSGame *> *games, NSArray<CSGameCategory *> *categories, NSError *error);
 
 @interface CSGameOperationsDispatcher : NSObject
 

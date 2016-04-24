@@ -14,9 +14,6 @@
 //Environment
 #import "CSEnvironment.h"
 
-//Formater
-#import "TTTURLRequestFormatter.h"
-
 @implementation CSApiClient
 
 + (instancetype)sharedManager {

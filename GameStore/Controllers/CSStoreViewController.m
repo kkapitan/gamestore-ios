@@ -13,6 +13,7 @@
 
 //Views
 #import "CSStoreCollectionViewCell.h"
+#import "GameStore-Swift.h"
 
 //Categories
 #import "UIScrollView+InfiniteScroll.h"
@@ -91,9 +92,29 @@
         [indexPaths addObject:[NSIndexPath indexPathForItem:(NSInteger)index inSection:0]];
     }
     
+    __weak typeof(self) wSelf = self;
     [self.collectionView performBatchUpdates:^{
-        [self.collectionView insertItemsAtIndexPaths:indexPaths];
+        [wSelf.collectionView insertItemsAtIndexPaths:indexPaths];
     } completion:nil];
+}
+
+- (void)viewModeldidUpdateCategories:(CSStoreViewModel *)viewModel {
+    BTNavigationDropdownMenu *dropdown = [[BTNavigationDropdownMenu alloc]
+                                          initWithTitle:self.navigationItem.title
+                                          items:viewModel.categoryNames];
+    
+    __weak typeof(self) wSelf = self;
+    dropdown.didSelectItemAtIndexHandler = ^(NSInteger index){
+        CSGameCategory *category = [wSelf.viewModel categoryAtIndex:index];
+        self.navigationItem.title = category.title;
+        
+        wSelf.viewModel.category = [category.title isEqualToString:@"All"] ? nil : category;
+        [wSelf.viewModel loadData];
+        
+        [wSelf.collectionView reloadData];
+    };
+    
+    self.navigationItem.titleView = dropdown;
 }
 
 @end

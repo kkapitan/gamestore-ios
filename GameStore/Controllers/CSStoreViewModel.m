@@ -10,6 +10,7 @@
 
 @interface CSStoreViewModel ()
 @property (nonatomic, strong) NSArray <CSGame *> *games;
+@property (nonatomic, strong, readonly) NSArray <CSGameCategory *> *categories;
 @end
 
 @implementation CSStoreViewModel
@@ -41,12 +42,22 @@
 }
 
 - (void)loadData {
+    _games = @[];
+    
     CSSearchQuery *query = [[CSSearchQuery alloc] initWithKeyword:_searchText category:_category];
     [self.provider loadWithQuery:query];
 }
 
 - (void)fetchNextPage {
     [self.provider fetchMore];
+}
+
+- (NSArray<NSString *> *)categoryNames {
+    return [self.categories valueForKey:@"title"];
+}
+
+- (CSGameCategory *)categoryAtIndex:(NSInteger)index {
+    return [self.categories objectAtIndex:(NSUInteger)index];
 }
 
 #pragma mark -
@@ -62,6 +73,12 @@
     _games = games;
     
     [self.delegate viewModelDidUpdateData:self];
+}
+
+- (void)provider:(CSGamesProvider *)provider didFinishLoadingCategories:(NSArray<CSGameCategory *> *)categories {
+    _categories = categories;
+    
+    [self.delegate viewModeldidUpdateCategories:self];
 }
 
 @end

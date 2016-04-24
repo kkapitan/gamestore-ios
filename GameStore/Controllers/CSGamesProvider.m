@@ -57,7 +57,7 @@
     __weak typeof(self) wSelf = self;
     
     _loading = YES;
-    [self.gamesFetcher fetchGamesWithParams:params completion:^(BOOL success, NSArray<CSGame *> *games, NSError *error) {
+    [self.gamesFetcher fetchGamesWithParams:params completion:^(BOOL success, NSArray<CSGame *> *games, NSArray<CSGameCategory *> *categories, NSError *error) {
         wSelf.loading = NO;
         
         if (!success && error) {
@@ -68,6 +68,7 @@
         
         if (wSelf.page.index == 0) {
             wSelf.games = [NSMutableArray new];
+            [wSelf.delegate provider:wSelf didFinishLoadingCategories:[categories copy]];
         }
         
         wSelf.more = games.count == wSelf.page.limit;
